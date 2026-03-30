@@ -1,0 +1,3110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.263" tests="21" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\hp\eclipse-training\RestAssuredFramework\target\test-classes;C:\Users\hp\eclipse-training\RestAssuredFramework\target\classes;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\hp\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\hp\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\hp\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\hp\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hp\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\hp\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire15955254935051128537\surefirebooter-20260330030816746_3.jar C:\Users\hp\AppData\Local\Temp\surefire15955254935051128537 2026-03-30T03-08-16_531-jvmRun1 surefire-20260330030816746_1tmp surefire_0-20260330030816746_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\hp\eclipse-training\RestAssuredFramework\target\test-classes;C:\Users\hp\eclipse-training\RestAssuredFramework\target\classes;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\hp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\hp\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\hp\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\hp\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\hp\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\hp\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\hp\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\hp\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\hp\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\hp\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hp\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\hp\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\hp\eclipse-training\RestAssuredFramework/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hp"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\hp\eclipse-training\RestAssuredFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire15955254935051128537\surefirebooter-20260330030816746_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="hp"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hp\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\hp\eclipse-training\RestAssuredFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741/jre/bin/server;C:/Program Files/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;G:\oracle\product\10.2.0\db_3\bin;G:\oracle\product\10.2.0\db_2\bin;G:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.1\bin;C:\Ruby27-x64\bin;C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;C:\Users\hp\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Calibre2\;F:\allure-2.33.0\bin;C:\Program Files\Java\jdk-17\bin;F:\Git\cmd;C:\Users\hp\AppData\Local\Muse Hub\lib;F:\node js\;C:\Program Files\apache-maven-3.9.14\bin;C:\Users\hp\AppData\Local\Programs\Python\Python314\;C:\Ruby27-x64\bin;G:\New folder\Scripts\;G:\New folder\;C:\Users\hp\AppData\Local\GitHubDesktop\bin;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;F:\node js;C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-17;C:\Users\hp\AppData\Local\Android\Sdk;C:\Users\hp\AppData\Local\Android\Sdk\tools;F:\intellij\IntelliJ IDEA Community Edition 2022.3.3\bin;;F:\allure-2.33.0\bin;F:\Flutter SDK\flutter\bin;C:\Users\hp\AppData\Local\Programs\Python\Python314\Scripts;C:\Users\hp\AppData\Local\Muse Hub\lib;C:\Users\hp\AppData\Roaming\npm;;C:\Program Files\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testGetAllPosts" classname="com.apiframework.tests.UserApiTest" time="4.29">
+    <system-out><![CDATA[2026-03-30 03:08:21.033 [main] INFO  c.a.u.LogUtils                           - =================================================
+2026-03-30 03:08:21.046 [main] INFO  c.a.u.LogUtils                           - =======Initialising Rest Assured Framework=======
+2026-03-30 03:08:21.046 [main] INFO  c.a.u.LogUtils                           - =================================================
+2026-03-30 03:08:22.370 [main] INFO  c.a.u.ConfigReader                       - config.properties loaded successfully.
+2026-03-30 03:08:22.578 [main] INFO  c.a.u.LogUtils                           - Base URL		: https://jsonplaceholder.typicode.com
+2026-03-30 03:08:22.578 [main] INFO  c.a.u.LogUtils                           - Base Path		: 
+2026-03-30 03:08:22.579 [main] INFO  c.a.u.LogUtils                           - Content Type	: application/json
+2026-03-30 03:08:22.579 [main] INFO  c.a.u.LogUtils                           - ==============================================
+2026-03-30 03:08:22.579 [main] INFO  c.a.u.LogUtils                           -   Setup Complete — Suite ready to run
+2026-03-30 03:08:22.580 [main] INFO  c.a.u.LogUtils                           - ==============================================
+2026-03-30 03:08:22.754 [main] INFO  c.a.t.UserApiTest                        - >>> TEST: GET all posts
+2026-03-30 03:08:22.755 [main] INFO  c.a.t.UserApiTest                        - >>> TEST: GET all posts
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:24 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+Content-Encoding: gzip
+etag: W/"6b80-Ybsq/K6GwwqrYkAsFxqDXGC7DoM"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=2JChYCYdy4tOn3MIBEe6lKiL0kLOGFh0QM%2Bxvd7j064%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774763160"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=2JChYCYdy4tOn3MIBEe6lKiL0kLOGFh0QM%2Bxvd7j064%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774763160"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1774763186
+Age: 28188
+cf-cache-status: HIT
+CF-RAY: 9e420578caff7887-CNN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "qui est esse",
+        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "eum et est occaecati",
+        "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    },
+    {
+        "userId": 1,
+        "id": 5,
+        "title": "nesciunt quas odio",
+        "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+    },
+    {
+        "userId": 1,
+        "id": 6,
+        "title": "dolorem eum magni eos aperiam quia",
+        "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+    },
+    {
+        "userId": 1,
+        "id": 7,
+        "title": "magnam facilis autem",
+        "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+    },
+    {
+        "userId": 1,
+        "id": 8,
+        "title": "dolorem dolore est ipsam",
+        "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+    },
+    {
+        "userId": 1,
+        "id": 9,
+        "title": "nesciunt iure omnis dolorem tempora et accusantium",
+        "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+    },
+    {
+        "userId": 1,
+        "id": 10,
+        "title": "optio molestias id quia eum",
+        "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+    },
+    {
+        "userId": 2,
+        "id": 11,
+        "title": "et ea vero quia laudantium autem",
+        "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
+    },
+    {
+        "userId": 2,
+        "id": 12,
+        "title": "in quibusdam tempore odit est dolorem",
+        "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio"
+    },
+    {
+        "userId": 2,
+        "id": 13,
+        "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+        "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam"
+    },
+    {
+        "userId": 2,
+        "id": 14,
+        "title": "voluptatem eligendi optio",
+        "body": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum"
+    },
+    {
+        "userId": 2,
+        "id": 15,
+        "title": "eveniet quod temporibus",
+        "body": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae"
+    },
+    {
+        "userId": 2,
+        "id": 16,
+        "title": "sint suscipit perspiciatis velit dolorum rerum ipsa laboriosam odio",
+        "body": "suscipit nam nisi quo aperiam aut\nasperiores eos fugit maiores voluptatibus quia\nvoluptatem quis ullam qui in alias quia est\nconsequatur magni mollitia accusamus ea nisi voluptate dicta"
+    },
+    {
+        "userId": 2,
+        "id": 17,
+        "title": "fugit voluptas sed molestias voluptatem provident",
+        "body": "eos voluptas et aut odit natus earum\naspernatur fuga molestiae ullam\ndeserunt ratione qui eos\nqui nihil ratione nemo velit ut aut id quo"
+    },
+    {
+        "userId": 2,
+        "id": 18,
+        "title": "voluptate et itaque vero tempora molestiae",
+        "body": "eveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnam"
+    },
+    {
+        "userId": 2,
+        "id": 19,
+        "title": "adipisci placeat illum aut reiciendis qui",
+        "body": "illum quis cupiditate provident sit magnam\nea sed aut omnis\nveniam maiores ullam consequatur atque\nadipisci quo iste expedita sit quos voluptas"
+    },
+    {
+        "userId": 2,
+        "id": 20,
+        "title": "doloribus ad provident suscipit at",
+        "body": "qui consequuntur ducimus possimus quisquam amet similique\nsuscipit porro ipsam amet\neos veritatis officiis exercitationem vel fugit aut necessitatibus totam\nomnis rerum consequatur expedita quidem cumque explicabo"
+    },
+    {
+        "userId": 3,
+        "id": 21,
+        "title": "asperiores ea ipsam voluptatibus modi minima quia sint",
+        "body": "repellat aliquid praesentium dolorem quo\nsed totam minus non itaque\nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt"
+    },
+    {
+        "userId": 3,
+        "id": 22,
+        "title": "dolor sint quo a velit explicabo quia nam",
+        "body": "eos qui et ipsum ipsam suscipit aut\nsed omnis non odio\nexpedita earum mollitia molestiae aut atque rem suscipit\nnam impedit esse"
+    },
+    {
+        "userId": 3,
+        "id": 23,
+        "title": "maxime id vitae nihil numquam",
+        "body": "veritatis unde neque eligendi\nquae quod architecto quo neque vitae\nest illo sit tempora doloremque fugit quod\net et vel beatae sequi ullam sed tenetur perspiciatis"
+    },
+    {
+        "userId": 3,
+        "id": 24,
+        "title": "autem hic labore sunt dolores incidunt",
+        "body": "enim et ex nulla\nomnis voluptas quia qui\nvoluptatem consequatur numquam aliquam sunt\ntotam recusandae id dignissimos aut sed asperiores deserunt"
+    },
+    {
+        "userId": 3,
+        "id": 25,
+        "title": "rem alias distinctio quo quis",
+        "body": "ullam consequatur ut\nomnis quis sit vel consequuntur\nipsa eligendi ipsum molestiae et omnis error nostrum\nmolestiae illo tempore quia et distinctio"
+    },
+    {
+        "userId": 3,
+        "id": 26,
+        "title": "est et quae odit qui non",
+        "body": "similique esse doloribus nihil accusamus\nomnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus\nperspiciatis cum ut laudantium\nomnis aut molestiae vel vero"
+    },
+    {
+        "userId": 3,
+        "id": 27,
+        "title": "quasi id et eos tenetur aut quo autem",
+        "body": "eum sed dolores ipsam sint possimus debitis occaecati\ndebitis qui qui et\nut placeat enim earum aut odit facilis\nconsequatur suscipit necessitatibus rerum sed inventore temporibus consequatur"
+    },
+    {
+        "userId": 3,
+        "id": 28,
+        "title": "delectus ullam et corporis nulla voluptas sequi",
+        "body": "non et quaerat ex quae ad maiores\nmaiores recusandae totam aut blanditiis mollitia quas illo\nut voluptatibus voluptatem\nsimilique nostrum eum"
+    },
+    {
+        "userId": 3,
+        "id": 29,
+        "title": "iusto eius quod necessitatibus culpa ea",
+        "body": "odit magnam ut saepe sed non qui\ntempora atque nihil\naccusamus illum doloribus illo dolor\neligendi repudiandae odit magni similique sed cum maiores"
+    },
+    {
+        "userId": 3,
+        "id": 30,
+        "title": "a quo magni similique perferendis",
+        "body": "alias dolor cumque\nimpedit blanditiis non eveniet odio maxime\nblanditiis amet eius quis tempora quia autem rem\na provident perspiciatis quia"
+    },
+    {
+        "userId": 4,
+        "id": 31,
+        "title": "ullam ut quidem id aut vel consequuntur",
+        "body": "debitis eius sed quibusdam non quis consectetur vitae\nimpedit ut qui consequatur sed aut in\nquidem sit nostrum et maiores adipisci atque\nquaerat voluptatem adipisci repudiandae"
+    },
+    {
+        "userId": 4,
+        "id": 32,
+        "title": "doloremque illum aliquid sunt",
+        "body": "deserunt eos nobis asperiores et hic\nest debitis repellat molestiae optio\nnihil ratione ut eos beatae quibusdam distinctio maiores\nearum voluptates et aut adipisci ea maiores voluptas maxime"
+    },
+    {
+        "userId": 4,
+        "id": 33,
+        "title": "qui explicabo molestiae dolorem",
+        "body": "rerum ut et numquam laborum odit est sit\nid qui sint in\nquasi tenetur tempore aperiam et quaerat qui in\nrerum officiis sequi cumque quod"
+    },
+    {
+        "userId": 4,
+        "id": 34,
+        "title": "magnam ut rerum iure",
+        "body": "ea velit perferendis earum ut voluptatem voluptate itaque iusto\ntotam pariatur in\nnemo voluptatem voluptatem autem magni tempora minima in\nest distinctio qui assumenda accusamus dignissimos officia nesciunt nobis"
+    },
+    {
+        "userId": 4,
+        "id": 35,
+        "title": "id nihil consequatur molestias animi provident",
+        "body": "nisi error delectus possimus ut eligendi vitae\nplaceat eos harum cupiditate facilis reprehenderit voluptatem beatae\nmodi ducimus quo illum voluptas eligendi\net nobis quia fugit"
+    },
+    {
+        "userId": 4,
+        "id": 36,
+        "title": "fuga nam accusamus voluptas reiciendis itaque",
+        "body": "ad mollitia et omnis minus architecto odit\nvoluptas doloremque maxime aut non ipsa qui alias veniam\nblanditiis culpa aut quia nihil cumque facere et occaecati\nqui aspernatur quia eaque ut aperiam inventore"
+    },
+    {
+        "userId": 4,
+        "id": 37,
+        "title": "provident vel ut sit ratione est",
+        "body": "debitis et eaque non officia sed nesciunt pariatur vel\nvoluptatem iste vero et ea\nnumquam aut expedita ipsum nulla in\nvoluptates omnis consequatur aut enim officiis in quam qui"
+    },
+    {
+        "userId": 4,
+        "id": 38,
+        "title": "explicabo et eos deleniti nostrum ab id repellendus",
+        "body": "animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure"
+    },
+    {
+        "userId": 4,
+        "id": 39,
+        "title": "eos dolorem iste accusantium est eaque quam",
+        "body": "corporis rerum ducimus vel eum accusantium\nmaxime aspernatur a porro possimus iste omnis\nest in deleniti asperiores fuga aut\nvoluptas sapiente vel dolore minus voluptatem incidunt ex"
+    },
+    {
+        "userId": 4,
+        "id": 40,
+        "title": "enim quo cumque",
+        "body": "ut voluptatum aliquid illo tenetur nemo sequi quo facilis\nipsum rem optio mollitia quas\nvoluptatem eum voluptas qui\nunde omnis voluptatem iure quasi maxime voluptas nam"
+    },
+    {
+        "userId": 5,
+        "id": 41,
+        "title": "non est facere",
+        "body": "molestias id nostrum\nexcepturi molestiae dolore omnis repellendus quaerat saepe\nconsectetur iste quaerat tenetur asperiores accusamus ex ut\nnam quidem est ducimus sunt debitis saepe"
+    },
+    {
+        "userId": 5,
+        "id": 42,
+        "title": "commodi ullam sint et excepturi error explicabo praesentium voluptas",
+        "body": "odio fugit voluptatum ducimus earum autem est incidunt voluptatem\nodit reiciendis aliquam sunt sequi nulla dolorem\nnon facere repellendus voluptates quia\nratione harum vitae ut"
+    },
+    {
+        "userId": 5,
+        "id": 43,
+        "title": "eligendi iste nostrum consequuntur adipisci praesentium sit beatae perferendis",
+        "body": "similique fugit est\nillum et dolorum harum et voluptate eaque quidem\nexercitationem quos nam commodi possimus cum odio nihil nulla\ndolorum exercitationem magnam ex et a et distinctio debitis"
+    },
+    {
+        "userId": 5,
+        "id": 44,
+        "title": "optio dolor molestias sit",
+        "body": "temporibus est consectetur dolore\net libero debitis vel velit laboriosam quia\nipsum quibusdam qui itaque fuga rem aut\nea et iure quam sed maxime ut distinctio quae"
+    },
+    {
+        "userId": 5,
+        "id": 45,
+        "title": "ut numquam possimus omnis eius suscipit laudantium iure",
+        "body": "est natus reiciendis nihil possimus aut provident\nex et dolor\nrepellat pariatur est\nnobis rerum repellendus dolorem autem"
+    },
+    {
+        "userId": 5,
+        "id": 46,
+        "title": "aut quo modi neque nostrum ducimus",
+        "body": "voluptatem quisquam iste\nvoluptatibus natus officiis facilis dolorem\nquis quas ipsam\nvel et voluptatum in aliquid"
+    },
+    {
+        "userId": 5,
+        "id": 47,
+        "title": "quibusdam cumque rem aut deserunt",
+        "body": "voluptatem assumenda ut qui ut cupiditate aut impedit veniam\noccaecati nemo illum voluptatem laudantium\nmolestiae beatae rerum ea iure soluta nostrum\neligendi et voluptate"
+    },
+    {
+        "userId": 5,
+        "id": 48,
+        "title": "ut voluptatem illum ea doloribus itaque eos",
+        "body": "voluptates quo voluptatem facilis iure occaecati\nvel assumenda rerum officia et\nillum perspiciatis ab deleniti\nlaudantium repellat ad ut et autem reprehenderit"
+    },
+    {
+        "userId": 5,
+        "id": 49,
+        "title": "laborum non sunt aut ut assumenda perspiciatis voluptas",
+        "body": "inventore ab sint\nnatus fugit id nulla sequi architecto nihil quaerat\neos tenetur in in eum veritatis non\nquibusdam officiis aspernatur cumque aut commodi aut"
+    },
+    {
+        "userId": 5,
+        "id": 50,
+        "title": "repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem",
+        "body": "error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur"
+    },
+    {
+        "userId": 6,
+        "id": 51,
+        "title": "soluta aliquam aperiam consequatur illo quis voluptas",
+        "body": "sunt dolores aut doloribus\ndolore doloribus voluptates tempora et\ndoloremque et quo\ncum asperiores sit consectetur dolorem"
+    },
+    {
+        "userId": 6,
+        "id": 52,
+        "title": "qui enim et consequuntur quia animi quis voluptate quibusdam",
+        "body": "iusto est quibusdam fuga quas quaerat molestias\na enim ut sit accusamus enim\ntemporibus iusto accusantium provident architecto\nsoluta esse reprehenderit qui laborum"
+    },
+    {
+        "userId": 6,
+        "id": 53,
+        "title": "ut quo aut ducimus alias",
+        "body": "minima harum praesentium eum rerum illo dolore\nquasi exercitationem rerum nam\nporro quis neque quo\nconsequatur minus dolor quidem veritatis sunt non explicabo similique"
+    },
+    {
+        "userId": 6,
+        "id": 54,
+        "title": "sit asperiores ipsam eveniet odio non quia",
+        "body": "totam corporis dignissimos\nvitae dolorem ut occaecati accusamus\nex velit deserunt\net exercitationem vero incidunt corrupti mollitia"
+    },
+    {
+        "userId": 6,
+        "id": 55,
+        "title": "sit vel voluptatem et non libero",
+        "body": "debitis excepturi ea perferendis harum libero optio\neos accusamus cum fuga ut sapiente repudiandae\net ut incidunt omnis molestiae\nnihil ut eum odit"
+    },
+    {
+        "userId": 6,
+        "id": 56,
+        "title": "qui et at rerum necessitatibus",
+        "body": "aut est omnis dolores\nneque rerum quod ea rerum velit pariatur beatae excepturi\net provident voluptas corrupti\ncorporis harum reprehenderit dolores eligendi"
+    },
+    {
+        "userId": 6,
+        "id": 57,
+        "title": "sed ab est est",
+        "body": "at pariatur consequuntur earum quidem\nquo est laudantium soluta voluptatem\nqui ullam et est\net cum voluptas voluptatum repellat est"
+    },
+    {
+        "userId": 6,
+        "id": 58,
+        "title": "voluptatum itaque dolores nisi et quasi",
+        "body": "veniam voluptatum quae adipisci id\net id quia eos ad et dolorem\naliquam quo nisi sunt eos impedit error\nad similique veniam"
+    },
+    {
+        "userId": 6,
+        "id": 59,
+        "title": "qui commodi dolor at maiores et quis id accusantium",
+        "body": "perspiciatis et quam ea autem temporibus non voluptatibus qui\nbeatae a earum officia nesciunt dolores suscipit voluptas et\nanimi doloribus cum rerum quas et magni\net hic ut ut commodi expedita sunt"
+    },
+    {
+        "userId": 6,
+        "id": 60,
+        "title": "consequatur placeat omnis quisquam quia reprehenderit fugit veritatis facere",
+        "body": "asperiores sunt ab assumenda cumque modi velit\nqui esse omnis\nvoluptate et fuga perferendis voluptas\nillo ratione amet aut et omnis"
+    },
+    {
+        "userId": 7,
+        "id": 61,
+        "title": "voluptatem doloribus consectetur est ut ducimus",
+        "body": "ab nemo optio odio\ndelectus tenetur corporis similique nobis repellendus rerum omnis facilis\nvero blanditiis debitis in nesciunt doloribus dicta dolores\nmagnam minus velit"
+    },
+    {
+        "userId": 7,
+        "id": 62,
+        "title": "beatae enim quia vel",
+        "body": "enim aspernatur illo distinctio quae praesentium\nbeatae alias amet delectus qui voluptate distinctio\nodit sint accusantium autem omnis\nquo molestiae omnis ea eveniet optio"
+    },
+    {
+        "userId": 7,
+        "id": 63,
+        "title": "voluptas blanditiis repellendus animi ducimus error sapiente et suscipit",
+        "body": "enim adipisci aspernatur nemo\nnumquam omnis facere dolorem dolor ex quis temporibus incidunt\nab delectus culpa quo reprehenderit blanditiis asperiores\naccusantium ut quam in voluptatibus voluptas ipsam dicta"
+    },
+    {
+        "userId": 7,
+        "id": 64,
+        "title": "et fugit quas eum in in aperiam quod",
+        "body": "id velit blanditiis\neum ea voluptatem\nmolestiae sint occaecati est eos perspiciatis\nincidunt a error provident eaque aut aut qui"
+    },
+    {
+        "userId": 7,
+        "id": 65,
+        "title": "consequatur id enim sunt et et",
+        "body": "voluptatibus ex esse\nsint explicabo est aliquid cumque adipisci fuga repellat labore\nmolestiae corrupti ex saepe at asperiores et perferendis\nnatus id esse incidunt pariatur"
+    },
+    {
+        "userId": 7,
+        "id": 66,
+        "title": "repudiandae ea animi iusto",
+        "body": "officia veritatis tenetur vero qui itaque\nsint non ratione\nsed et ut asperiores iusto eos molestiae nostrum\nveritatis quibusdam et nemo iusto saepe"
+    },
+    {
+        "userId": 7,
+        "id": 67,
+        "title": "aliquid eos sed fuga est maxime repellendus",
+        "body": "reprehenderit id nostrum\nvoluptas doloremque pariatur sint et accusantium quia quod aspernatur\net fugiat amet\nnon sapiente et consequatur necessitatibus molestiae"
+    },
+    {
+        "userId": 7,
+        "id": 68,
+        "title": "odio quis facere architecto reiciendis optio",
+        "body": "magnam molestiae perferendis quisquam\nqui cum reiciendis\nquaerat animi amet hic inventore\nea quia deleniti quidem saepe porro velit"
+    },
+    {
+        "userId": 7,
+        "id": 69,
+        "title": "fugiat quod pariatur odit minima",
+        "body": "officiis error culpa consequatur modi asperiores et\ndolorum assumenda voluptas et vel qui aut vel rerum\nvoluptatum quisquam perspiciatis quia rerum consequatur totam quas\nsequi commodi repudiandae asperiores et saepe a"
+    },
+    {
+        "userId": 7,
+        "id": 70,
+        "title": "voluptatem laborum magni",
+        "body": "sunt repellendus quae\nest asperiores aut deleniti esse accusamus repellendus quia aut\nquia dolorem unde\neum tempora esse dolore"
+    },
+    {
+        "userId": 8,
+        "id": 71,
+        "title": "et iusto veniam et illum aut fuga",
+        "body": "occaecati a doloribus\niste saepe consectetur placeat eum voluptate dolorem et\nqui quo quia voluptas\nrerum ut id enim velit est perferendis"
+    },
+    {
+        "userId": 8,
+        "id": 72,
+        "title": "sint hic doloribus consequatur eos non id",
+        "body": "quam occaecati qui deleniti consectetur\nconsequatur aut facere quas exercitationem aliquam hic voluptas\nneque id sunt ut aut accusamus\nsunt consectetur expedita inventore velit"
+    },
+    {
+        "userId": 8,
+        "id": 73,
+        "title": "consequuntur deleniti eos quia temporibus ab aliquid at",
+        "body": "voluptatem cumque tenetur consequatur expedita ipsum nemo quia explicabo\naut eum minima consequatur\ntempore cumque quae est et\net in consequuntur voluptatem voluptates aut"
+    },
+    {
+        "userId": 8,
+        "id": 74,
+        "title": "enim unde ratione doloribus quas enim ut sit sapiente",
+        "body": "odit qui et et necessitatibus sint veniam\nmollitia amet doloremque molestiae commodi similique magnam et quam\nblanditiis est itaque\nquo et tenetur ratione occaecati molestiae tempora"
+    },
+    {
+        "userId": 8,
+        "id": 75,
+        "title": "dignissimos eum dolor ut enim et delectus in",
+        "body": "commodi non non omnis et voluptas sit\nautem aut nobis magnam et sapiente voluptatem\net laborum repellat qui delectus facilis temporibus\nrerum amet et nemo voluptate expedita adipisci error dolorem"
+    },
+    {
+        "userId": 8,
+        "id": 76,
+        "title": "doloremque officiis ad et non perferendis",
+        "body": "ut animi facere\ntotam iusto tempore\nmolestiae eum aut et dolorem aperiam\nquaerat recusandae totam odio"
+    },
+    {
+        "userId": 8,
+        "id": 77,
+        "title": "necessitatibus quasi exercitationem odio",
+        "body": "modi ut in nulla repudiandae dolorum nostrum eos\naut consequatur omnis\nut incidunt est omnis iste et quam\nvoluptates sapiente aliquam asperiores nobis amet corrupti repudiandae provident"
+    },
+    {
+        "userId": 8,
+        "id": 78,
+        "title": "quam voluptatibus rerum veritatis",
+        "body": "nobis facilis odit tempore cupiditate quia\nassumenda doloribus rerum qui ea\nillum et qui totam\naut veniam repellendus"
+    },
+    {
+        "userId": 8,
+        "id": 79,
+        "title": "pariatur consequatur quia magnam autem omnis non amet",
+        "body": "libero accusantium et et facere incidunt sit dolorem\nnon excepturi qui quia sed laudantium\nquisquam molestiae ducimus est\nofficiis esse molestiae iste et quos"
+    },
+    {
+        "userId": 8,
+        "id": 80,
+        "title": "labore in ex et explicabo corporis aut quas",
+        "body": "ex quod dolorem ea eum iure qui provident amet\nquia qui facere excepturi et repudiandae\nasperiores molestias provident\nminus incidunt vero fugit rerum sint sunt excepturi provident"
+    },
+    {
+        "userId": 9,
+        "id": 81,
+        "title": "tempora rem veritatis voluptas quo dolores vero",
+        "body": "facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut"
+    },
+    {
+        "userId": 9,
+        "id": 82,
+        "title": "laudantium voluptate suscipit sunt enim enim",
+        "body": "ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic"
+    },
+    {
+        "userId": 9,
+        "id": 83,
+        "title": "odit et voluptates doloribus alias odio et",
+        "body": "est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam"
+    },
+    {
+        "userId": 9,
+        "id": 84,
+        "title": "optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut",
+        "body": "sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio"
+    },
+    {
+        "userId": 9,
+        "id": 85,
+        "title": "dolore veritatis porro provident adipisci blanditiis et sunt",
+        "body": "similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione"
+    },
+    {
+        "userId": 9,
+        "id": 86,
+        "title": "placeat quia et porro iste",
+        "body": "quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio"
+    },
+    {
+        "userId": 9,
+        "id": 87,
+        "title": "nostrum quis quasi placeat",
+        "body": "eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est"
+    },
+    {
+        "userId": 9,
+        "id": 88,
+        "title": "sapiente omnis fugit eos",
+        "body": "consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed"
+    },
+    {
+        "userId": 9,
+        "id": 89,
+        "title": "sint soluta et vel magnam aut ut sed qui",
+        "body": "repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est"
+    },
+    {
+        "userId": 9,
+        "id": 90,
+        "title": "ad iusto omnis odit dolor voluptatibus",
+        "body": "minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis"
+    },
+    {
+        "userId": 10,
+        "id": 91,
+        "title": "aut amet sed",
+        "body": "libero voluptate eveniet aperiam sed\nsunt placeat suscipit molestias\nsimilique fugit nam natus\nexpedita consequatur consequatur dolores quia eos et placeat"
+    },
+    {
+        "userId": 10,
+        "id": 92,
+        "title": "ratione ex tenetur perferendis",
+        "body": "aut et excepturi dicta laudantium sint rerum nihil\nlaudantium et at\na neque minima officia et similique libero et\ncommodi voluptate qui"
+    },
+    {
+        "userId": 10,
+        "id": 93,
+        "title": "beatae soluta recusandae",
+        "body": "dolorem quibusdam ducimus consequuntur dicta aut quo laboriosam\nvoluptatem quis enim recusandae ut sed sunt\nnostrum est odit totam\nsit error sed sunt eveniet provident qui nulla"
+    },
+    {
+        "userId": 10,
+        "id": 94,
+        "title": "qui qui voluptates illo iste minima",
+        "body": "aspernatur expedita soluta quo ab ut similique\nexpedita dolores amet\nsed temporibus distinctio magnam saepe deleniti\nomnis facilis nam ipsum natus sint similique omnis"
+    },
+    {
+        "userId": 10,
+        "id": 95,
+        "title": "id minus libero illum nam ad officiis",
+        "body": "earum voluptatem facere provident blanditiis velit laboriosam\npariatur accusamus odio saepe\ncumque dolor qui a dicta ab doloribus consequatur omnis\ncorporis cupiditate eaque assumenda ad nesciunt"
+    },
+    {
+        "userId": 10,
+        "id": 96,
+        "title": "quaerat velit veniam amet cupiditate aut numquam ut sequi",
+        "body": "in non odio excepturi sint eum\nlabore voluptates vitae quia qui et\ninventore itaque rerum\nveniam non exercitationem delectus aut"
+    },
+    {
+        "userId": 10,
+        "id": 97,
+        "title": "quas fugiat ut perspiciatis vero provident",
+        "body": "eum non blanditiis soluta porro quibusdam voluptas\nvel voluptatem qui placeat dolores qui velit aut\nvel inventore aut cumque culpa explicabo aliquid at\nperspiciatis est et voluptatem dignissimos dolor itaque sit nam"
+    },
+    {
+        "userId": 10,
+        "id": 98,
+        "title": "laboriosam dolor voluptates",
+        "body": "doloremque ex facilis sit sint culpa\nsoluta assumenda eligendi non ut eius\nsequi ducimus vel quasi\nveritatis est dolores"
+    },
+    {
+        "userId": 10,
+        "id": 99,
+        "title": "temporibus sit alias delectus eligendi possimus magni",
+        "body": "quo deleniti praesentium dicta non quod\naut est molestias\nmolestias et officia quis nihil\nitaque dolorem quia"
+    },
+    {
+        "userId": 10,
+        "id": 100,
+        "title": "at nam consequatur ea labore ea harum",
+        "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
+    }
+]
+2026-03-30 03:08:26.789 [main] INFO  c.a.t.UserApiTest                        - <<< PASSED: GET all posts
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testGetSingePost" classname="com.apiframework.tests.UserApiTest" time="0.846">
+    <system-out><![CDATA[2026-03-30 03:08:26.971 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:26.973 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testGetAllPosts
+2026-03-30 03:08:26.974 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:27.003 [main] INFO  c.a.t.UserApiTest                        - >>> TEST: GET Single post with id=1
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=DKPtCdqU8ulJ0sr3YQFxbyatpa7N1GmtSDC7M0RFMUg%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774624608"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=DKPtCdqU8ulJ0sr3YQFxbyatpa7N1GmtSDC7M0RFMUg%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774624608"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1774624625
+Age: 11157
+cf-cache-status: HIT
+Content-Encoding: gzip
+CF-RAY: 9e42058819b67887-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-03-30 03:08:27.826 [main] INFO  c.a.t.UserApiTest                        - Retreived post: Post{id=1, userId='1', title='sunt aut facere repellat provident occaecati excepturi optio reprehenderit'}
+2026-03-30 03:08:27.841 [main] INFO  c.a.t.UserApiTest                        - <<< PASSED: GET single post
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePost" classname="com.apiframework.tests.UserApiTest" time="1.177">
+    <system-out><![CDATA[2026-03-30 03:08:27.846 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:27.847 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testGetSingePost
+2026-03-30 03:08:27.847 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:27.859 [main] INFO  c.a.t.UserApiTest                        - >>> TEST: POST create post
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "userId": 1,
+    "title": "API Automation with RestAssured",
+    "body": "This post was created by our framework."
+}
+HTTP/1.1 201 Created
+Date: Sun, 29 Mar 2026 21:38:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 129
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"81-CKC1N+fg21zqJNf1ZRUuXIurnmM"
+expires: -1
+location: https://jsonplaceholder.typicode.com/posts/101
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=xo1%2FRwV4835p2NbLURHkkTSP6ffCMWiukK%2FS%2FSINemk%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774820308"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=xo1%2FRwV4835p2NbLURHkkTSP6ffCMWiukK%2FS%2FSINemk%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774820308"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1774820367
+cf-cache-status: DYNAMIC
+CF-RAY: 9e42058f5ce9d96b-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 101,
+    "userId": 1,
+    "title": "API Automation with RestAssured",
+    "body": "This post was created by our framework."
+}
+2026-03-30 03:08:29.030 [main] INFO  c.a.t.UserApiTest                        - Created post ID: 101
+2026-03-30 03:08:29.030 [main] INFO  c.a.t.UserApiTest                        - <<< PASSED: POST create post
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePostPut" classname="com.apiframework.tests.UserApiTest" time="0.838">
+    <system-out><![CDATA[2026-03-30 03:08:29.033 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:29.034 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testCreatePost
+2026-03-30 03:08:29.034 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:29.041 [main] INFO  c.a.t.UserApiTest                        - >>> TEST: PUT update post id= 1 (Using known existing ID
+Request method:	PUT
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "userId": 1,
+    "title": "Updated Title via PUT",
+    "body": "Fully replaced body content."
+}
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: no-cache
+etag: W/"6a-HfvZSO63yKDbgIhHlmcVdl48w/s"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=GGz6eQoAsjtySsweFS5YSZbNHScI5uZ3gApBMNGiseY%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774820309"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=GGz6eQoAsjtySsweFS5YSZbNHScI5uZ3gApBMNGiseY%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774820309"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 998
+x-ratelimit-reset: 1774820367
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: 9e4205949bc33044-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "title": "Updated Title via PUT",
+    "body": "Fully replaced body content."
+}
+2026-03-30 03:08:29.876 [main] INFO  c.a.t.UserApiTest                        - <<< PASSED: PUT update post
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePostPatch" classname="com.apiframework.tests.UserApiTest" time="0.311">
+    <system-out><![CDATA[2026-03-30 03:08:29.878 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:29.879 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testUpdatePostPut
+2026-03-30 03:08:29.879 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:29.885 [main] INFO  c.a.t.UserApiTest                        - >>> TEST: PATCH update post id=101
+Request method:	PATCH
+Request URI:	https://jsonplaceholder.typicode.com/posts/101
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=101
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Patched Title Only"
+}
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: no-cache
+etag: W/"23-cdk/ebjtTH3IPKRRtzm99EGjWVg"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=AAKn1VzbjpXoShQy4Js0G92bS2IIiPsr9YUAeNqxsaU%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774820310"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=AAKn1VzbjpXoShQy4Js0G92bS2IIiPsr9YUAeNqxsaU%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774820310"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 997
+x-ratelimit-reset: 1774820367
+cf-cache-status: DYNAMIC
+CF-RAY: 9e420599ec0ce0a1-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "title": "Patched Title Only"
+}
+2026-03-30 03:08:30.189 [main] INFO  c.a.t.UserApiTest                        - <<< PASSED: PATCH update post
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePost" classname="com.apiframework.tests.UserApiTest" time="0.279">
+    <system-out><![CDATA[2026-03-30 03:08:30.192 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:30.192 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testUpdatePostPatch
+2026-03-30 03:08:30.192 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:30.197 [main] INFO  c.a.t.UserApiTest                        - >>> TEST: DELETE post id=101
+Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/posts/101
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=101
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: no-cache
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=AAKn1VzbjpXoShQy4Js0G92bS2IIiPsr9YUAeNqxsaU%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774820310"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=AAKn1VzbjpXoShQy4Js0G92bS2IIiPsr9YUAeNqxsaU%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774820310"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 996
+x-ratelimit-reset: 1774820367
+cf-cache-status: DYNAMIC
+CF-RAY: 9e42059bbd34d96b-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    
+}
+2026-03-30 03:08:30.469 [main] INFO  c.a.t.UserApiTest                        - <<< PASSED: DELETE post — 200 received
+]]></system-out>
+  </testcase>
+  <testcase name="testGetExistentPost" classname="com.apiframework.tests.UserApiTest" time="0.07">
+    <system-out><![CDATA[2026-03-30 03:08:30.472 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:30.472 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testDeletePost
+2026-03-30 03:08:30.472 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:30.477 [main] INFO  c.a.t.UserApiTest                        - >>> TEST: GET non-existent post id=99999
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/99999
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=99999
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Sun, 29 Mar 2026 21:38:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=wP2PGdYAsbTNBKgs1rKZIe0Ekohfo67Hwb6ibqB1oR4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774807127"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=wP2PGdYAsbTNBKgs1rKZIe0Ekohfo67Hwb6ibqB1oR4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774807127"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 995
+x-ratelimit-reset: 1774807166
+Age: 13182
+cf-cache-status: HIT
+CF-RAY: 9e42059d7c9b7887-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    
+}
+2026-03-30 03:08:30.541 [main] INFO  c.a.t.UserApiTest                        - <<< PASSED: 404 received for non-existent post
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPostByUser" classname="com.apiframework.tests.UserApiTest" time="0.086">
+    <system-out><![CDATA[2026-03-30 03:08:30.543 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:30.543 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testGetExistentPost
+2026-03-30 03:08:30.544 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:30.549 [main] INFO  c.a.t.UserApiTest                        - >>>TEST: GET Posts for userId = 1
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/1/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+Content-Encoding: gzip
+etag: W/"aa6-j2NSH739l9uq40OywFMn7Y0C/iY"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=wP2PGdYAsbTNBKgs1rKZIe0Ekohfo67Hwb6ibqB1oR4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774807127"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=wP2PGdYAsbTNBKgs1rKZIe0Ekohfo67Hwb6ibqB1oR4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774807127"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 994
+x-ratelimit-reset: 1774807166
+Age: 13182
+cf-cache-status: HIT
+CF-RAY: 9e42059debe95fb9-CNN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "qui est esse",
+        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "eum et est occaecati",
+        "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    },
+    {
+        "userId": 1,
+        "id": 5,
+        "title": "nesciunt quas odio",
+        "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+    },
+    {
+        "userId": 1,
+        "id": 6,
+        "title": "dolorem eum magni eos aperiam quia",
+        "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+    },
+    {
+        "userId": 1,
+        "id": 7,
+        "title": "magnam facilis autem",
+        "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+    },
+    {
+        "userId": 1,
+        "id": 8,
+        "title": "dolorem dolore est ipsam",
+        "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+    },
+    {
+        "userId": 1,
+        "id": 9,
+        "title": "nesciunt iure omnis dolorem tempora et accusantium",
+        "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+    },
+    {
+        "userId": 1,
+        "id": 10,
+        "title": "optio molestias id quia eum",
+        "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+    }
+]
+2026-03-30 03:08:30.622 [main] INFO  c.a.t.UserApiTest                        - <<< PASSED: GET Post by UserId
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePostWithDataProvider[1, Java Automation Post, Written using RestAssured, 201](1)" classname="com.apiframework.tests.DataDrivenTest" time="0.341">
+    <system-out><![CDATA[2026-03-30 03:08:30.625 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:30.625 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testGetPostByUser
+2026-03-30 03:08:30.625 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:30.650 [main] INFO  c.a.t.DataDrivenTest                     - >>> DATA PROVIDER TEST | userId=1 | title=Java Automation Post | expectedStatus=201
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "userId": 1,
+    "title": "Java Automation Post",
+    "body": "Written using RestAssured"
+}
+HTTP/1.1 201 Created
+Date: Sun, 29 Mar 2026 21:38:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 104
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"68-BbpJMaj/sAJj2XKTGHJvJolTWHY"
+expires: -1
+location: https://jsonplaceholder.typicode.com/posts/101
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=AAKn1VzbjpXoShQy4Js0G92bS2IIiPsr9YUAeNqxsaU%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774820310"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=AAKn1VzbjpXoShQy4Js0G92bS2IIiPsr9YUAeNqxsaU%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774820310"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 995
+x-ratelimit-reset: 1774820367
+cf-cache-status: DYNAMIC
+CF-RAY: 9e42059e8c588cd0-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 101,
+    "userId": 1,
+    "title": "Java Automation Post",
+    "body": "Written using RestAssured"
+}
+2026-03-30 03:08:30.978 [main] INFO  c.a.t.DataDrivenTest                     - <<< PASSED | Created post id=101
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePostWithDataProvider[2, API Testing Best Practices, Data driven approach, 201](2)" classname="com.apiframework.tests.DataDrivenTest" time="0.318">
+    <system-out><![CDATA[2026-03-30 03:08:30.983 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:30.983 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testCreatePostWithDataProvider
+2026-03-30 03:08:30.983 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:30.987 [main] INFO  c.a.t.DataDrivenTest                     - >>> DATA PROVIDER TEST | userId=2 | title=API Testing Best Practices | expectedStatus=201
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "userId": 2,
+    "title": "API Testing Best Practices",
+    "body": "Data driven approach"
+}
+HTTP/1.1 201 Created
+Date: Sun, 29 Mar 2026 21:38:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 105
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"69-Dpxjv4j4FElIBqpBPtkM9J7bomk"
+expires: -1
+location: https://jsonplaceholder.typicode.com/posts/101
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=D56hygoyc7iKIF1L9WmIeWwItztsLcmvGaceTFHiH6A%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774820311"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=D56hygoyc7iKIF1L9WmIeWwItztsLcmvGaceTFHiH6A%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774820311"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 994
+x-ratelimit-reset: 1774820367
+cf-cache-status: DYNAMIC
+CF-RAY: 9e4205a09e2c7887-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 101,
+    "userId": 2,
+    "title": "API Testing Best Practices",
+    "body": "Data driven approach"
+}
+2026-03-30 03:08:31.300 [main] INFO  c.a.t.DataDrivenTest                     - <<< PASSED | Created post id=101
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePostWithDataProvider[3, TestNG Framework Guide, Using DataProvider, 201](3)" classname="com.apiframework.tests.DataDrivenTest" time="0.323">
+    <system-out><![CDATA[2026-03-30 03:08:31.303 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:31.303 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testCreatePostWithDataProvider
+2026-03-30 03:08:31.303 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:31.308 [main] INFO  c.a.t.DataDrivenTest                     - >>> DATA PROVIDER TEST | userId=3 | title=TestNG Framework Guide | expectedStatus=201
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "userId": 3,
+    "title": "TestNG Framework Guide",
+    "body": "Using DataProvider"
+}
+HTTP/1.1 201 Created
+Date: Sun, 29 Mar 2026 21:38:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 99
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"63-yaAoBySL6iIkUZACvoI82YQmvwc"
+expires: -1
+location: https://jsonplaceholder.typicode.com/posts/101
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=D56hygoyc7iKIF1L9WmIeWwItztsLcmvGaceTFHiH6A%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774820311"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=D56hygoyc7iKIF1L9WmIeWwItztsLcmvGaceTFHiH6A%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774820311"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 993
+x-ratelimit-reset: 1774820367
+cf-cache-status: DYNAMIC
+CF-RAY: 9e4205a29df78cd0-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 101,
+    "userId": 3,
+    "title": "TestNG Framework Guide",
+    "body": "Using DataProvider"
+}
+2026-03-30 03:08:31.628 [main] INFO  c.a.t.DataDrivenTest                     - <<< PASSED | Created post id=101
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePostFromExcel[{userId=1, title=Test Post 1, body=Body content for post 1, expected_status=201}](1)" classname="com.apiframework.tests.DataDrivenTest" time="0.321">
+    <system-out><![CDATA[2026-03-30 03:08:31.630 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:31.631 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testCreatePostWithDataProvider
+2026-03-30 03:08:31.631 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:32.888 [main] INFO  c.a.u.ExcelUtils                         - Excel headers found: [userId, title, body, expected_status]
+2026-03-30 03:08:32.891 [main] INFO  c.a.u.ExcelUtils                         - Read row 1: {userId=1, title=Test Post 1, body=Body content for post 1, expected_status=201}
+2026-03-30 03:08:32.892 [main] INFO  c.a.u.ExcelUtils                         - Read row 2: {userId=2, title=Test Post 2, body=Body content for post 2, expected_status=201}
+2026-03-30 03:08:32.893 [main] INFO  c.a.u.ExcelUtils                         - Read row 3: {userId=3, title=Test Post 3, body=Body content for post 3, expected_status=201}
+2026-03-30 03:08:32.897 [main] INFO  c.a.t.DataDrivenTest                     - >>> EXCEL TEST | userId=1 | title=Test Post 1 | expectedStatus=201
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "userId": 1,
+    "title": "Test Post 1",
+    "body": "Body content for post 1"
+}
+HTTP/1.1 201 Created
+Date: Sun, 29 Mar 2026 21:38:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 93
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"5d-ErG/qMG+17+20s9p+osLA/o55rQ"
+expires: -1
+location: https://jsonplaceholder.typicode.com/posts/101
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=VTq5WjaRPkSixqOeX68ssWzWu3l%2BlzSpl3wHqiUQACE%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774820313"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=VTq5WjaRPkSixqOeX68ssWzWu3l%2BlzSpl3wHqiUQACE%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774820313"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 992
+x-ratelimit-reset: 1774820367
+cf-cache-status: DYNAMIC
+CF-RAY: 9e4205acaa928cd0-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 101,
+    "userId": 1,
+    "title": "Test Post 1",
+    "body": "Body content for post 1"
+}
+2026-03-30 03:08:33.211 [main] INFO  c.a.t.DataDrivenTest                     - <<< PASSED | Excel row processed: {userId=1, title=Test Post 1, body=Body content for post 1, expected_status=201}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePostFromExcel[{userId=2, title=Test Post 2, body=Body content for post 2, expected_status=201}](2)" classname="com.apiframework.tests.DataDrivenTest" time="0.335">
+    <system-out><![CDATA[2026-03-30 03:08:33.213 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:33.214 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testCreatePostFromExcel
+2026-03-30 03:08:33.214 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:33.219 [main] INFO  c.a.t.DataDrivenTest                     - >>> EXCEL TEST | userId=2 | title=Test Post 2 | expectedStatus=201
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "userId": 2,
+    "title": "Test Post 2",
+    "body": "Body content for post 2"
+}
+HTTP/1.1 201 Created
+Date: Sun, 29 Mar 2026 21:38:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 93
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"5d-cpgHFVgQeDjuRRku6AVBpkrAgos"
+expires: -1
+location: https://jsonplaceholder.typicode.com/posts/101
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=VTq5WjaRPkSixqOeX68ssWzWu3l%2BlzSpl3wHqiUQACE%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774820313"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=VTq5WjaRPkSixqOeX68ssWzWu3l%2BlzSpl3wHqiUQACE%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774820313"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 991
+x-ratelimit-reset: 1774820367
+cf-cache-status: DYNAMIC
+CF-RAY: 9e4205aedb498cd0-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 101,
+    "userId": 2,
+    "title": "Test Post 2",
+    "body": "Body content for post 2"
+}
+2026-03-30 03:08:33.548 [main] INFO  c.a.t.DataDrivenTest                     - <<< PASSED | Excel row processed: {userId=2, title=Test Post 2, body=Body content for post 2, expected_status=201}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePostFromExcel[{userId=3, title=Test Post 3, body=Body content for post 3, expected_status=201}](3)" classname="com.apiframework.tests.DataDrivenTest" time="0.345">
+    <system-out><![CDATA[2026-03-30 03:08:33.549 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:33.550 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testCreatePostFromExcel
+2026-03-30 03:08:33.550 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:33.555 [main] INFO  c.a.t.DataDrivenTest                     - >>> EXCEL TEST | userId=3 | title=Test Post 3 | expectedStatus=201
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "userId": 3,
+    "title": "Test Post 3",
+    "body": "Body content for post 3"
+}
+HTTP/1.1 201 Created
+Date: Sun, 29 Mar 2026 21:38:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 93
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"5d-Hymse1KYw/Ff3ASiWZpkWWsqVx4"
+expires: -1
+location: https://jsonplaceholder.typicode.com/posts/101
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=VTq5WjaRPkSixqOeX68ssWzWu3l%2BlzSpl3wHqiUQACE%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774820313"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=VTq5WjaRPkSixqOeX68ssWzWu3l%2BlzSpl3wHqiUQACE%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774820313"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 990
+x-ratelimit-reset: 1774820367
+cf-cache-status: DYNAMIC
+CF-RAY: 9e4205b0a9ec2fe1-CNN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 101,
+    "userId": 3,
+    "title": "Test Post 3",
+    "body": "Body content for post 3"
+}
+2026-03-30 03:08:33.849 [main] INFO  c.a.t.DataDrivenTest                     - <<< PASSED | Excel row processed: {userId=3, title=Test Post 3, body=Body content for post 3, expected_status=201}
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginAndGetToken" classname="com.apiframework.tests.AuthTest" time="1.342">
+    <system-out><![CDATA[2026-03-30 03:08:33.899 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:33.899 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testCreatePostFromExcel
+2026-03-30 03:08:33.900 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:33.903 [main] INFO  c.a.t.AuthTest                           - >>> TEST: Login and get Bearer token
+Request method:	POST
+Request URI:	https://dummyjson.com/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "emilys",
+    "password": "emilyspass",
+    "expiresInMins": 30
+}
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:35 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"3a2-cp8eEt729Fu6fn4/SQZ5GlsGJew"
+Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzQ4MjAzMTUsImV4cCI6MTc3NDgyMjExNX0.ae7fQDfMbMv6RMOWG6KsXZVJr84Tj2Goo1gwPoPFXPs; Max-Age=1800; Path=/; Expires=Sun, 29 Mar 2026 22:08:35 GMT; HttpOnly; Secure
+Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzQ4MjAzMTUsImV4cCI6MTc3NzQxMjMxNX0.95uCNTxHGaFzRWjgwLPm-gHgskkNjlzd4dbBzzHuk38; Max-Age=1800; Path=/; Expires=Sun, 29 Mar 2026 22:08:35 GMT; HttpOnly; Secure
+strict-transport-security: max-age=15552000; includeSubDomains
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+x-ratelimit-reset: 1774820318
+x-xss-protection: 1; mode=block
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qJrTWKS0N1Xz0aJh7XkGdUMu%2BCmKzRKiv4ayMM7Brv4LV8yVu%2BwnjHRzT79Vx8NVc2QYIi2Ay8SHuyqhyuwdELoSVPenKHD8ZCUhA3Tk3QNJNEVRF1vvFqISZjHWpUNx"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9e4205b31e5f5fb9-CNN
+
+{
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzQ4MjAzMTUsImV4cCI6MTc3NDgyMjExNX0.ae7fQDfMbMv6RMOWG6KsXZVJr84Tj2Goo1gwPoPFXPs",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzQ4MjAzMTUsImV4cCI6MTc3NzQxMjMxNX0.95uCNTxHGaFzRWjgwLPm-gHgskkNjlzd4dbBzzHuk38",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+2026-03-30 03:08:35.241 [main] INFO  c.a.t.AuthTest                           - <<< PASSED: Token received. Length=360
+]]></system-out>
+  </testcase>
+  <testcase name="testBearerTokenAccess" classname="com.apiframework.tests.AuthTest" time="0.966">
+    <system-out><![CDATA[2026-03-30 03:08:35.243 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:35.243 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testLoginAndGetToken
+2026-03-30 03:08:35.243 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:35.248 [main] INFO  c.a.t.AuthTest                           - >>> TEST: Access protected endpoint with Bearer token
+2026-03-30 03:08:35.413 [main] INFO  c.a.u.AuthUtils                          - Fetching new Bearer token from: https://dummyjson.com/auth/login
+Request method:	POST
+Request URI:	https://dummyjson.com/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "emilys",
+    "password": "emilyspass",
+    "expiresInMins": 30
+}
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:35 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"3a2-cp8eEt729Fu6fn4/SQZ5GlsGJew"
+Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzQ4MjAzMTUsImV4cCI6MTc3NDgyMjExNX0.ae7fQDfMbMv6RMOWG6KsXZVJr84Tj2Goo1gwPoPFXPs; Max-Age=1800; Path=/; Expires=Sun, 29 Mar 2026 22:08:35 GMT; HttpOnly; Secure
+Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzQ4MjAzMTUsImV4cCI6MTc3NzQxMjMxNX0.95uCNTxHGaFzRWjgwLPm-gHgskkNjlzd4dbBzzHuk38; Max-Age=1800; Path=/; Expires=Sun, 29 Mar 2026 22:08:35 GMT; HttpOnly; Secure
+strict-transport-security: max-age=15552000; includeSubDomains
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 98
+x-ratelimit-reset: 1774820318
+x-xss-protection: 1; mode=block
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=v5jginjRNvqx3xSkza2f4Qy67iyt4FlmQl8fpOuGUwNr3Y9KQdQTMrxafVcHmzTfO9WeuUam2dRM7SHgArSpbop0%2F%2FWZbjn10gty2hCLC0%2BqUSAU9BdPIgAgtxJSgHbj"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9e4205bc8b16d96b-CNN
+
+{
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzQ4MjAzMTUsImV4cCI6MTc3NDgyMjExNX0.ae7fQDfMbMv6RMOWG6KsXZVJr84Tj2Goo1gwPoPFXPs",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzQ4MjAzMTUsImV4cCI6MTc3NzQxMjMxNX0.95uCNTxHGaFzRWjgwLPm-gHgskkNjlzd4dbBzzHuk38",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+2026-03-30 03:08:35.813 [main] INFO  c.a.u.AuthUtils                          - Bearer token fetched and cached successfully.
+Request method:	GET
+Request URI:	https://dummyjson.com/auth/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzQ4MjAzMTUsImV4cCI6MTc3NDgyMjExNX0.ae7fQDfMbMv6RMOWG6KsXZVJr84Tj2Goo1gwPoPFXPs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KDmFlVJGJdEYaGBIEidlijUhDAkrrIr5cScw0XOCxrf3nvvWkm0uoKCbeBlxQUSinPNVfWA%2Bs1k9Gj0s1AXPuTMHJs8HmdqqXATfsF2gN0h0GLLmHm38dtinjsHn%2FmrR"}]}
+etag: W/"58f-CoL/KoXlW3x1PtqQr3wqPsXj6DE"
+strict-transport-security: max-age=15552000; includeSubDomains
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 97
+x-ratelimit-reset: 1774820318
+x-xss-protection: 1; mode=block
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9e4205bec9492fe5-CNN
+
+{
+    "id": 1,
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "maidenName": "Smith",
+    "age": 29,
+    "gender": "female",
+    "email": "emily.johnson@x.dummyjson.com",
+    "phone": "+81 965-431-3024",
+    "username": "emilys",
+    "password": "emilyspass",
+    "birthDate": "1996-5-30",
+    "image": "https://dummyjson.com/icon/emilys/128",
+    "bloodGroup": "O-",
+    "height": 193.24,
+    "weight": 63.16,
+    "eyeColor": "Green",
+    "hair": {
+        "color": "Brown",
+        "type": "Curly"
+    },
+    "ip": "42.48.100.32",
+    "address": {
+        "address": "626 Main Street",
+        "city": "Phoenix",
+        "state": "Mississippi",
+        "stateCode": "MS",
+        "postalCode": "29112",
+        "coordinates": {
+            "lat": -77.16213,
+            "lng": -92.084824
+        },
+        "country": "United States"
+    },
+    "macAddress": "47:fa:41:18:ec:eb",
+    "university": "University of Wisconsin--Madison",
+    "bank": {
+        "cardExpire": "05/28",
+        "cardNumber": "3693233511855044",
+        "cardType": "Diners Club International",
+        "currency": "GBP",
+        "iban": "GB74MH2UZLR9TRPHYNU8F8"
+    },
+    "company": {
+        "department": "Engineering",
+        "name": "Dooley, Kozey and Cronin",
+        "title": "Sales Manager",
+        "address": {
+            "address": "263 Tenth Street",
+            "city": "San Francisco",
+            "state": "Wisconsin",
+            "stateCode": "WI",
+            "postalCode": "37657",
+            "coordinates": {
+                "lat": 71.814525,
+                "lng": -161.150263
+            },
+            "country": "United States"
+        }
+    },
+    "ein": "977-175",
+    "ssn": "900-590-289",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36",
+    "crypto": {
+        "coin": "Bitcoin",
+        "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+        "network": "Ethereum (ERC20)"
+    },
+    "role": "admin"
+}
+2026-03-30 03:08:36.195 [main] INFO  c.a.t.AuthTest                           - <<< PASSED: Protected endpoint accessed with Bearer token
+]]></system-out>
+  </testcase>
+  <testcase name="testTokenCaching" classname="com.apiframework.tests.AuthTest" time="0.006">
+    <system-out><![CDATA[2026-03-30 03:08:36.208 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:36.208 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testBearerTokenAccess
+2026-03-30 03:08:36.209 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:36.217 [main] INFO  c.a.t.AuthTest                           - >>> TEST: Verify token caching
+2026-03-30 03:08:36.218 [main] INFO  c.a.u.AuthUtils                          - Returning cached Bearer token.
+2026-03-30 03:08:36.218 [main] INFO  c.a.u.AuthUtils                          - Returning cached Bearer token.
+2026-03-30 03:08:36.219 [main] INFO  c.a.t.AuthTest                           - <<< PASSED: Token caching verified
+]]></system-out>
+  </testcase>
+  <testcase name="testBasicAuthHeaderStructure" classname="com.apiframework.tests.AuthTest" time="0.006">
+    <system-out><![CDATA[2026-03-30 03:08:36.221 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:36.222 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testTokenCaching
+2026-03-30 03:08:36.222 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:36.227 [main] INFO  c.a.t.AuthTest                           - >>> TEST: Basic Auth header structure
+2026-03-30 03:08:36.230 [main] INFO  c.a.t.AuthTest                           - Basic Auth encoded value: ZW1pbHlzOmVtaWx5c3Bhc3M=
+2026-03-30 03:08:36.230 [main] INFO  c.a.t.AuthTest                           - <<< PASSED: Basic Auth header structure verified
+]]></system-out>
+  </testcase>
+  <testcase name="testApiKeyInHeader" classname="com.apiframework.tests.AuthTest" time="0.165">
+    <system-out><![CDATA[2026-03-30 03:08:36.232 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:36.233 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testBasicAuthHeaderStructure
+2026-03-30 03:08:36.233 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:36.237 [main] INFO  c.a.t.AuthTest                           - >>> TEST: API Key in header
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=test-api-key-12345
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+Content-Encoding: gzip
+etag: W/"6b80-Ybsq/K6GwwqrYkAsFxqDXGC7DoM"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=2JChYCYdy4tOn3MIBEe6lKiL0kLOGFh0QM%2Bxvd7j064%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774763160"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=2JChYCYdy4tOn3MIBEe6lKiL0kLOGFh0QM%2Bxvd7j064%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774763160"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1774763186
+Age: 28200
+cf-cache-status: HIT
+CF-RAY: 9e4205c17d2fd96b-CNN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "qui est esse",
+        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "eum et est occaecati",
+        "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    },
+    {
+        "userId": 1,
+        "id": 5,
+        "title": "nesciunt quas odio",
+        "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+    },
+    {
+        "userId": 1,
+        "id": 6,
+        "title": "dolorem eum magni eos aperiam quia",
+        "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+    },
+    {
+        "userId": 1,
+        "id": 7,
+        "title": "magnam facilis autem",
+        "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+    },
+    {
+        "userId": 1,
+        "id": 8,
+        "title": "dolorem dolore est ipsam",
+        "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+    },
+    {
+        "userId": 1,
+        "id": 9,
+        "title": "nesciunt iure omnis dolorem tempora et accusantium",
+        "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+    },
+    {
+        "userId": 1,
+        "id": 10,
+        "title": "optio molestias id quia eum",
+        "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+    },
+    {
+        "userId": 2,
+        "id": 11,
+        "title": "et ea vero quia laudantium autem",
+        "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
+    },
+    {
+        "userId": 2,
+        "id": 12,
+        "title": "in quibusdam tempore odit est dolorem",
+        "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio"
+    },
+    {
+        "userId": 2,
+        "id": 13,
+        "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+        "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam"
+    },
+    {
+        "userId": 2,
+        "id": 14,
+        "title": "voluptatem eligendi optio",
+        "body": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum"
+    },
+    {
+        "userId": 2,
+        "id": 15,
+        "title": "eveniet quod temporibus",
+        "body": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae"
+    },
+    {
+        "userId": 2,
+        "id": 16,
+        "title": "sint suscipit perspiciatis velit dolorum rerum ipsa laboriosam odio",
+        "body": "suscipit nam nisi quo aperiam aut\nasperiores eos fugit maiores voluptatibus quia\nvoluptatem quis ullam qui in alias quia est\nconsequatur magni mollitia accusamus ea nisi voluptate dicta"
+    },
+    {
+        "userId": 2,
+        "id": 17,
+        "title": "fugit voluptas sed molestias voluptatem provident",
+        "body": "eos voluptas et aut odit natus earum\naspernatur fuga molestiae ullam\ndeserunt ratione qui eos\nqui nihil ratione nemo velit ut aut id quo"
+    },
+    {
+        "userId": 2,
+        "id": 18,
+        "title": "voluptate et itaque vero tempora molestiae",
+        "body": "eveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnam"
+    },
+    {
+        "userId": 2,
+        "id": 19,
+        "title": "adipisci placeat illum aut reiciendis qui",
+        "body": "illum quis cupiditate provident sit magnam\nea sed aut omnis\nveniam maiores ullam consequatur atque\nadipisci quo iste expedita sit quos voluptas"
+    },
+    {
+        "userId": 2,
+        "id": 20,
+        "title": "doloribus ad provident suscipit at",
+        "body": "qui consequuntur ducimus possimus quisquam amet similique\nsuscipit porro ipsam amet\neos veritatis officiis exercitationem vel fugit aut necessitatibus totam\nomnis rerum consequatur expedita quidem cumque explicabo"
+    },
+    {
+        "userId": 3,
+        "id": 21,
+        "title": "asperiores ea ipsam voluptatibus modi minima quia sint",
+        "body": "repellat aliquid praesentium dolorem quo\nsed totam minus non itaque\nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt"
+    },
+    {
+        "userId": 3,
+        "id": 22,
+        "title": "dolor sint quo a velit explicabo quia nam",
+        "body": "eos qui et ipsum ipsam suscipit aut\nsed omnis non odio\nexpedita earum mollitia molestiae aut atque rem suscipit\nnam impedit esse"
+    },
+    {
+        "userId": 3,
+        "id": 23,
+        "title": "maxime id vitae nihil numquam",
+        "body": "veritatis unde neque eligendi\nquae quod architecto quo neque vitae\nest illo sit tempora doloremque fugit quod\net et vel beatae sequi ullam sed tenetur perspiciatis"
+    },
+    {
+        "userId": 3,
+        "id": 24,
+        "title": "autem hic labore sunt dolores incidunt",
+        "body": "enim et ex nulla\nomnis voluptas quia qui\nvoluptatem consequatur numquam aliquam sunt\ntotam recusandae id dignissimos aut sed asperiores deserunt"
+    },
+    {
+        "userId": 3,
+        "id": 25,
+        "title": "rem alias distinctio quo quis",
+        "body": "ullam consequatur ut\nomnis quis sit vel consequuntur\nipsa eligendi ipsum molestiae et omnis error nostrum\nmolestiae illo tempore quia et distinctio"
+    },
+    {
+        "userId": 3,
+        "id": 26,
+        "title": "est et quae odit qui non",
+        "body": "similique esse doloribus nihil accusamus\nomnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus\nperspiciatis cum ut laudantium\nomnis aut molestiae vel vero"
+    },
+    {
+        "userId": 3,
+        "id": 27,
+        "title": "quasi id et eos tenetur aut quo autem",
+        "body": "eum sed dolores ipsam sint possimus debitis occaecati\ndebitis qui qui et\nut placeat enim earum aut odit facilis\nconsequatur suscipit necessitatibus rerum sed inventore temporibus consequatur"
+    },
+    {
+        "userId": 3,
+        "id": 28,
+        "title": "delectus ullam et corporis nulla voluptas sequi",
+        "body": "non et quaerat ex quae ad maiores\nmaiores recusandae totam aut blanditiis mollitia quas illo\nut voluptatibus voluptatem\nsimilique nostrum eum"
+    },
+    {
+        "userId": 3,
+        "id": 29,
+        "title": "iusto eius quod necessitatibus culpa ea",
+        "body": "odit magnam ut saepe sed non qui\ntempora atque nihil\naccusamus illum doloribus illo dolor\neligendi repudiandae odit magni similique sed cum maiores"
+    },
+    {
+        "userId": 3,
+        "id": 30,
+        "title": "a quo magni similique perferendis",
+        "body": "alias dolor cumque\nimpedit blanditiis non eveniet odio maxime\nblanditiis amet eius quis tempora quia autem rem\na provident perspiciatis quia"
+    },
+    {
+        "userId": 4,
+        "id": 31,
+        "title": "ullam ut quidem id aut vel consequuntur",
+        "body": "debitis eius sed quibusdam non quis consectetur vitae\nimpedit ut qui consequatur sed aut in\nquidem sit nostrum et maiores adipisci atque\nquaerat voluptatem adipisci repudiandae"
+    },
+    {
+        "userId": 4,
+        "id": 32,
+        "title": "doloremque illum aliquid sunt",
+        "body": "deserunt eos nobis asperiores et hic\nest debitis repellat molestiae optio\nnihil ratione ut eos beatae quibusdam distinctio maiores\nearum voluptates et aut adipisci ea maiores voluptas maxime"
+    },
+    {
+        "userId": 4,
+        "id": 33,
+        "title": "qui explicabo molestiae dolorem",
+        "body": "rerum ut et numquam laborum odit est sit\nid qui sint in\nquasi tenetur tempore aperiam et quaerat qui in\nrerum officiis sequi cumque quod"
+    },
+    {
+        "userId": 4,
+        "id": 34,
+        "title": "magnam ut rerum iure",
+        "body": "ea velit perferendis earum ut voluptatem voluptate itaque iusto\ntotam pariatur in\nnemo voluptatem voluptatem autem magni tempora minima in\nest distinctio qui assumenda accusamus dignissimos officia nesciunt nobis"
+    },
+    {
+        "userId": 4,
+        "id": 35,
+        "title": "id nihil consequatur molestias animi provident",
+        "body": "nisi error delectus possimus ut eligendi vitae\nplaceat eos harum cupiditate facilis reprehenderit voluptatem beatae\nmodi ducimus quo illum voluptas eligendi\net nobis quia fugit"
+    },
+    {
+        "userId": 4,
+        "id": 36,
+        "title": "fuga nam accusamus voluptas reiciendis itaque",
+        "body": "ad mollitia et omnis minus architecto odit\nvoluptas doloremque maxime aut non ipsa qui alias veniam\nblanditiis culpa aut quia nihil cumque facere et occaecati\nqui aspernatur quia eaque ut aperiam inventore"
+    },
+    {
+        "userId": 4,
+        "id": 37,
+        "title": "provident vel ut sit ratione est",
+        "body": "debitis et eaque non officia sed nesciunt pariatur vel\nvoluptatem iste vero et ea\nnumquam aut expedita ipsum nulla in\nvoluptates omnis consequatur aut enim officiis in quam qui"
+    },
+    {
+        "userId": 4,
+        "id": 38,
+        "title": "explicabo et eos deleniti nostrum ab id repellendus",
+        "body": "animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure"
+    },
+    {
+        "userId": 4,
+        "id": 39,
+        "title": "eos dolorem iste accusantium est eaque quam",
+        "body": "corporis rerum ducimus vel eum accusantium\nmaxime aspernatur a porro possimus iste omnis\nest in deleniti asperiores fuga aut\nvoluptas sapiente vel dolore minus voluptatem incidunt ex"
+    },
+    {
+        "userId": 4,
+        "id": 40,
+        "title": "enim quo cumque",
+        "body": "ut voluptatum aliquid illo tenetur nemo sequi quo facilis\nipsum rem optio mollitia quas\nvoluptatem eum voluptas qui\nunde omnis voluptatem iure quasi maxime voluptas nam"
+    },
+    {
+        "userId": 5,
+        "id": 41,
+        "title": "non est facere",
+        "body": "molestias id nostrum\nexcepturi molestiae dolore omnis repellendus quaerat saepe\nconsectetur iste quaerat tenetur asperiores accusamus ex ut\nnam quidem est ducimus sunt debitis saepe"
+    },
+    {
+        "userId": 5,
+        "id": 42,
+        "title": "commodi ullam sint et excepturi error explicabo praesentium voluptas",
+        "body": "odio fugit voluptatum ducimus earum autem est incidunt voluptatem\nodit reiciendis aliquam sunt sequi nulla dolorem\nnon facere repellendus voluptates quia\nratione harum vitae ut"
+    },
+    {
+        "userId": 5,
+        "id": 43,
+        "title": "eligendi iste nostrum consequuntur adipisci praesentium sit beatae perferendis",
+        "body": "similique fugit est\nillum et dolorum harum et voluptate eaque quidem\nexercitationem quos nam commodi possimus cum odio nihil nulla\ndolorum exercitationem magnam ex et a et distinctio debitis"
+    },
+    {
+        "userId": 5,
+        "id": 44,
+        "title": "optio dolor molestias sit",
+        "body": "temporibus est consectetur dolore\net libero debitis vel velit laboriosam quia\nipsum quibusdam qui itaque fuga rem aut\nea et iure quam sed maxime ut distinctio quae"
+    },
+    {
+        "userId": 5,
+        "id": 45,
+        "title": "ut numquam possimus omnis eius suscipit laudantium iure",
+        "body": "est natus reiciendis nihil possimus aut provident\nex et dolor\nrepellat pariatur est\nnobis rerum repellendus dolorem autem"
+    },
+    {
+        "userId": 5,
+        "id": 46,
+        "title": "aut quo modi neque nostrum ducimus",
+        "body": "voluptatem quisquam iste\nvoluptatibus natus officiis facilis dolorem\nquis quas ipsam\nvel et voluptatum in aliquid"
+    },
+    {
+        "userId": 5,
+        "id": 47,
+        "title": "quibusdam cumque rem aut deserunt",
+        "body": "voluptatem assumenda ut qui ut cupiditate aut impedit veniam\noccaecati nemo illum voluptatem laudantium\nmolestiae beatae rerum ea iure soluta nostrum\neligendi et voluptate"
+    },
+    {
+        "userId": 5,
+        "id": 48,
+        "title": "ut voluptatem illum ea doloribus itaque eos",
+        "body": "voluptates quo voluptatem facilis iure occaecati\nvel assumenda rerum officia et\nillum perspiciatis ab deleniti\nlaudantium repellat ad ut et autem reprehenderit"
+    },
+    {
+        "userId": 5,
+        "id": 49,
+        "title": "laborum non sunt aut ut assumenda perspiciatis voluptas",
+        "body": "inventore ab sint\nnatus fugit id nulla sequi architecto nihil quaerat\neos tenetur in in eum veritatis non\nquibusdam officiis aspernatur cumque aut commodi aut"
+    },
+    {
+        "userId": 5,
+        "id": 50,
+        "title": "repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem",
+        "body": "error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur"
+    },
+    {
+        "userId": 6,
+        "id": 51,
+        "title": "soluta aliquam aperiam consequatur illo quis voluptas",
+        "body": "sunt dolores aut doloribus\ndolore doloribus voluptates tempora et\ndoloremque et quo\ncum asperiores sit consectetur dolorem"
+    },
+    {
+        "userId": 6,
+        "id": 52,
+        "title": "qui enim et consequuntur quia animi quis voluptate quibusdam",
+        "body": "iusto est quibusdam fuga quas quaerat molestias\na enim ut sit accusamus enim\ntemporibus iusto accusantium provident architecto\nsoluta esse reprehenderit qui laborum"
+    },
+    {
+        "userId": 6,
+        "id": 53,
+        "title": "ut quo aut ducimus alias",
+        "body": "minima harum praesentium eum rerum illo dolore\nquasi exercitationem rerum nam\nporro quis neque quo\nconsequatur minus dolor quidem veritatis sunt non explicabo similique"
+    },
+    {
+        "userId": 6,
+        "id": 54,
+        "title": "sit asperiores ipsam eveniet odio non quia",
+        "body": "totam corporis dignissimos\nvitae dolorem ut occaecati accusamus\nex velit deserunt\net exercitationem vero incidunt corrupti mollitia"
+    },
+    {
+        "userId": 6,
+        "id": 55,
+        "title": "sit vel voluptatem et non libero",
+        "body": "debitis excepturi ea perferendis harum libero optio\neos accusamus cum fuga ut sapiente repudiandae\net ut incidunt omnis molestiae\nnihil ut eum odit"
+    },
+    {
+        "userId": 6,
+        "id": 56,
+        "title": "qui et at rerum necessitatibus",
+        "body": "aut est omnis dolores\nneque rerum quod ea rerum velit pariatur beatae excepturi\net provident voluptas corrupti\ncorporis harum reprehenderit dolores eligendi"
+    },
+    {
+        "userId": 6,
+        "id": 57,
+        "title": "sed ab est est",
+        "body": "at pariatur consequuntur earum quidem\nquo est laudantium soluta voluptatem\nqui ullam et est\net cum voluptas voluptatum repellat est"
+    },
+    {
+        "userId": 6,
+        "id": 58,
+        "title": "voluptatum itaque dolores nisi et quasi",
+        "body": "veniam voluptatum quae adipisci id\net id quia eos ad et dolorem\naliquam quo nisi sunt eos impedit error\nad similique veniam"
+    },
+    {
+        "userId": 6,
+        "id": 59,
+        "title": "qui commodi dolor at maiores et quis id accusantium",
+        "body": "perspiciatis et quam ea autem temporibus non voluptatibus qui\nbeatae a earum officia nesciunt dolores suscipit voluptas et\nanimi doloribus cum rerum quas et magni\net hic ut ut commodi expedita sunt"
+    },
+    {
+        "userId": 6,
+        "id": 60,
+        "title": "consequatur placeat omnis quisquam quia reprehenderit fugit veritatis facere",
+        "body": "asperiores sunt ab assumenda cumque modi velit\nqui esse omnis\nvoluptate et fuga perferendis voluptas\nillo ratione amet aut et omnis"
+    },
+    {
+        "userId": 7,
+        "id": 61,
+        "title": "voluptatem doloribus consectetur est ut ducimus",
+        "body": "ab nemo optio odio\ndelectus tenetur corporis similique nobis repellendus rerum omnis facilis\nvero blanditiis debitis in nesciunt doloribus dicta dolores\nmagnam minus velit"
+    },
+    {
+        "userId": 7,
+        "id": 62,
+        "title": "beatae enim quia vel",
+        "body": "enim aspernatur illo distinctio quae praesentium\nbeatae alias amet delectus qui voluptate distinctio\nodit sint accusantium autem omnis\nquo molestiae omnis ea eveniet optio"
+    },
+    {
+        "userId": 7,
+        "id": 63,
+        "title": "voluptas blanditiis repellendus animi ducimus error sapiente et suscipit",
+        "body": "enim adipisci aspernatur nemo\nnumquam omnis facere dolorem dolor ex quis temporibus incidunt\nab delectus culpa quo reprehenderit blanditiis asperiores\naccusantium ut quam in voluptatibus voluptas ipsam dicta"
+    },
+    {
+        "userId": 7,
+        "id": 64,
+        "title": "et fugit quas eum in in aperiam quod",
+        "body": "id velit blanditiis\neum ea voluptatem\nmolestiae sint occaecati est eos perspiciatis\nincidunt a error provident eaque aut aut qui"
+    },
+    {
+        "userId": 7,
+        "id": 65,
+        "title": "consequatur id enim sunt et et",
+        "body": "voluptatibus ex esse\nsint explicabo est aliquid cumque adipisci fuga repellat labore\nmolestiae corrupti ex saepe at asperiores et perferendis\nnatus id esse incidunt pariatur"
+    },
+    {
+        "userId": 7,
+        "id": 66,
+        "title": "repudiandae ea animi iusto",
+        "body": "officia veritatis tenetur vero qui itaque\nsint non ratione\nsed et ut asperiores iusto eos molestiae nostrum\nveritatis quibusdam et nemo iusto saepe"
+    },
+    {
+        "userId": 7,
+        "id": 67,
+        "title": "aliquid eos sed fuga est maxime repellendus",
+        "body": "reprehenderit id nostrum\nvoluptas doloremque pariatur sint et accusantium quia quod aspernatur\net fugiat amet\nnon sapiente et consequatur necessitatibus molestiae"
+    },
+    {
+        "userId": 7,
+        "id": 68,
+        "title": "odio quis facere architecto reiciendis optio",
+        "body": "magnam molestiae perferendis quisquam\nqui cum reiciendis\nquaerat animi amet hic inventore\nea quia deleniti quidem saepe porro velit"
+    },
+    {
+        "userId": 7,
+        "id": 69,
+        "title": "fugiat quod pariatur odit minima",
+        "body": "officiis error culpa consequatur modi asperiores et\ndolorum assumenda voluptas et vel qui aut vel rerum\nvoluptatum quisquam perspiciatis quia rerum consequatur totam quas\nsequi commodi repudiandae asperiores et saepe a"
+    },
+    {
+        "userId": 7,
+        "id": 70,
+        "title": "voluptatem laborum magni",
+        "body": "sunt repellendus quae\nest asperiores aut deleniti esse accusamus repellendus quia aut\nquia dolorem unde\neum tempora esse dolore"
+    },
+    {
+        "userId": 8,
+        "id": 71,
+        "title": "et iusto veniam et illum aut fuga",
+        "body": "occaecati a doloribus\niste saepe consectetur placeat eum voluptate dolorem et\nqui quo quia voluptas\nrerum ut id enim velit est perferendis"
+    },
+    {
+        "userId": 8,
+        "id": 72,
+        "title": "sint hic doloribus consequatur eos non id",
+        "body": "quam occaecati qui deleniti consectetur\nconsequatur aut facere quas exercitationem aliquam hic voluptas\nneque id sunt ut aut accusamus\nsunt consectetur expedita inventore velit"
+    },
+    {
+        "userId": 8,
+        "id": 73,
+        "title": "consequuntur deleniti eos quia temporibus ab aliquid at",
+        "body": "voluptatem cumque tenetur consequatur expedita ipsum nemo quia explicabo\naut eum minima consequatur\ntempore cumque quae est et\net in consequuntur voluptatem voluptates aut"
+    },
+    {
+        "userId": 8,
+        "id": 74,
+        "title": "enim unde ratione doloribus quas enim ut sit sapiente",
+        "body": "odit qui et et necessitatibus sint veniam\nmollitia amet doloremque molestiae commodi similique magnam et quam\nblanditiis est itaque\nquo et tenetur ratione occaecati molestiae tempora"
+    },
+    {
+        "userId": 8,
+        "id": 75,
+        "title": "dignissimos eum dolor ut enim et delectus in",
+        "body": "commodi non non omnis et voluptas sit\nautem aut nobis magnam et sapiente voluptatem\net laborum repellat qui delectus facilis temporibus\nrerum amet et nemo voluptate expedita adipisci error dolorem"
+    },
+    {
+        "userId": 8,
+        "id": 76,
+        "title": "doloremque officiis ad et non perferendis",
+        "body": "ut animi facere\ntotam iusto tempore\nmolestiae eum aut et dolorem aperiam\nquaerat recusandae totam odio"
+    },
+    {
+        "userId": 8,
+        "id": 77,
+        "title": "necessitatibus quasi exercitationem odio",
+        "body": "modi ut in nulla repudiandae dolorum nostrum eos\naut consequatur omnis\nut incidunt est omnis iste et quam\nvoluptates sapiente aliquam asperiores nobis amet corrupti repudiandae provident"
+    },
+    {
+        "userId": 8,
+        "id": 78,
+        "title": "quam voluptatibus rerum veritatis",
+        "body": "nobis facilis odit tempore cupiditate quia\nassumenda doloribus rerum qui ea\nillum et qui totam\naut veniam repellendus"
+    },
+    {
+        "userId": 8,
+        "id": 79,
+        "title": "pariatur consequatur quia magnam autem omnis non amet",
+        "body": "libero accusantium et et facere incidunt sit dolorem\nnon excepturi qui quia sed laudantium\nquisquam molestiae ducimus est\nofficiis esse molestiae iste et quos"
+    },
+    {
+        "userId": 8,
+        "id": 80,
+        "title": "labore in ex et explicabo corporis aut quas",
+        "body": "ex quod dolorem ea eum iure qui provident amet\nquia qui facere excepturi et repudiandae\nasperiores molestias provident\nminus incidunt vero fugit rerum sint sunt excepturi provident"
+    },
+    {
+        "userId": 9,
+        "id": 81,
+        "title": "tempora rem veritatis voluptas quo dolores vero",
+        "body": "facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut"
+    },
+    {
+        "userId": 9,
+        "id": 82,
+        "title": "laudantium voluptate suscipit sunt enim enim",
+        "body": "ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic"
+    },
+    {
+        "userId": 9,
+        "id": 83,
+        "title": "odit et voluptates doloribus alias odio et",
+        "body": "est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam"
+    },
+    {
+        "userId": 9,
+        "id": 84,
+        "title": "optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut",
+        "body": "sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio"
+    },
+    {
+        "userId": 9,
+        "id": 85,
+        "title": "dolore veritatis porro provident adipisci blanditiis et sunt",
+        "body": "similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione"
+    },
+    {
+        "userId": 9,
+        "id": 86,
+        "title": "placeat quia et porro iste",
+        "body": "quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio"
+    },
+    {
+        "userId": 9,
+        "id": 87,
+        "title": "nostrum quis quasi placeat",
+        "body": "eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est"
+    },
+    {
+        "userId": 9,
+        "id": 88,
+        "title": "sapiente omnis fugit eos",
+        "body": "consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed"
+    },
+    {
+        "userId": 9,
+        "id": 89,
+        "title": "sint soluta et vel magnam aut ut sed qui",
+        "body": "repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est"
+    },
+    {
+        "userId": 9,
+        "id": 90,
+        "title": "ad iusto omnis odit dolor voluptatibus",
+        "body": "minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis"
+    },
+    {
+        "userId": 10,
+        "id": 91,
+        "title": "aut amet sed",
+        "body": "libero voluptate eveniet aperiam sed\nsunt placeat suscipit molestias\nsimilique fugit nam natus\nexpedita consequatur consequatur dolores quia eos et placeat"
+    },
+    {
+        "userId": 10,
+        "id": 92,
+        "title": "ratione ex tenetur perferendis",
+        "body": "aut et excepturi dicta laudantium sint rerum nihil\nlaudantium et at\na neque minima officia et similique libero et\ncommodi voluptate qui"
+    },
+    {
+        "userId": 10,
+        "id": 93,
+        "title": "beatae soluta recusandae",
+        "body": "dolorem quibusdam ducimus consequuntur dicta aut quo laboriosam\nvoluptatem quis enim recusandae ut sed sunt\nnostrum est odit totam\nsit error sed sunt eveniet provident qui nulla"
+    },
+    {
+        "userId": 10,
+        "id": 94,
+        "title": "qui qui voluptates illo iste minima",
+        "body": "aspernatur expedita soluta quo ab ut similique\nexpedita dolores amet\nsed temporibus distinctio magnam saepe deleniti\nomnis facilis nam ipsum natus sint similique omnis"
+    },
+    {
+        "userId": 10,
+        "id": 95,
+        "title": "id minus libero illum nam ad officiis",
+        "body": "earum voluptatem facere provident blanditiis velit laboriosam\npariatur accusamus odio saepe\ncumque dolor qui a dicta ab doloribus consequatur omnis\ncorporis cupiditate eaque assumenda ad nesciunt"
+    },
+    {
+        "userId": 10,
+        "id": 96,
+        "title": "quaerat velit veniam amet cupiditate aut numquam ut sequi",
+        "body": "in non odio excepturi sint eum\nlabore voluptates vitae quia qui et\ninventore itaque rerum\nveniam non exercitationem delectus aut"
+    },
+    {
+        "userId": 10,
+        "id": 97,
+        "title": "quas fugiat ut perspiciatis vero provident",
+        "body": "eum non blanditiis soluta porro quibusdam voluptas\nvel voluptatem qui placeat dolores qui velit aut\nvel inventore aut cumque culpa explicabo aliquid at\nperspiciatis est et voluptatem dignissimos dolor itaque sit nam"
+    },
+    {
+        "userId": 10,
+        "id": 98,
+        "title": "laboriosam dolor voluptates",
+        "body": "doloremque ex facilis sit sint culpa\nsoluta assumenda eligendi non ut eius\nsequi ducimus vel quasi\nveritatis est dolores"
+    },
+    {
+        "userId": 10,
+        "id": 99,
+        "title": "temporibus sit alias delectus eligendi possimus magni",
+        "body": "quo deleniti praesentium dicta non quod\naut est molestias\nmolestias et officia quis nihil\nitaque dolorem quia"
+    },
+    {
+        "userId": 10,
+        "id": 100,
+        "title": "at nam consequatur ea labore ea harum",
+        "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
+    }
+]
+2026-03-30 03:08:36.335 [main] INFO  c.a.t.AuthTest                           - <<< PASSED: API Key header attached, request succeeded
+]]></system-out>
+  </testcase>
+  <testcase name="testApiKeyInQueryParam" classname="com.apiframework.tests.AuthTest" time="0.112">
+    <system-out><![CDATA[2026-03-30 03:08:36.338 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:36.339 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testApiKeyInHeader
+2026-03-30 03:08:36.339 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:36.346 [main] INFO  c.a.t.AuthTest                           - >>> TEST: API Key as query parameter
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?api_key=test-api-key-12345
+Proxy:			<none>
+Request params:	<none>
+Query params:	api_key=test-api-key-12345
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2026 21:38:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+Content-Encoding: gzip
+etag: W/"6b80-Ybsq/K6GwwqrYkAsFxqDXGC7DoM"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=IfVnBtzG4zo6FJfBMzIE44Ug8NOyWjo50qg7QIzLXCs%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774814934"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=IfVnBtzG4zo6FJfBMzIE44Ug8NOyWjo50qg7QIzLXCs%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774814934"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 989
+x-ratelimit-reset: 1774814967
+Age: 5381
+cf-cache-status: HIT
+CF-RAY: 9e4205c24e547887-CNN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "qui est esse",
+        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "eum et est occaecati",
+        "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    },
+    {
+        "userId": 1,
+        "id": 5,
+        "title": "nesciunt quas odio",
+        "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+    },
+    {
+        "userId": 1,
+        "id": 6,
+        "title": "dolorem eum magni eos aperiam quia",
+        "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+    },
+    {
+        "userId": 1,
+        "id": 7,
+        "title": "magnam facilis autem",
+        "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+    },
+    {
+        "userId": 1,
+        "id": 8,
+        "title": "dolorem dolore est ipsam",
+        "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+    },
+    {
+        "userId": 1,
+        "id": 9,
+        "title": "nesciunt iure omnis dolorem tempora et accusantium",
+        "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+    },
+    {
+        "userId": 1,
+        "id": 10,
+        "title": "optio molestias id quia eum",
+        "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+    },
+    {
+        "userId": 2,
+        "id": 11,
+        "title": "et ea vero quia laudantium autem",
+        "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
+    },
+    {
+        "userId": 2,
+        "id": 12,
+        "title": "in quibusdam tempore odit est dolorem",
+        "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio"
+    },
+    {
+        "userId": 2,
+        "id": 13,
+        "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+        "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam"
+    },
+    {
+        "userId": 2,
+        "id": 14,
+        "title": "voluptatem eligendi optio",
+        "body": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum"
+    },
+    {
+        "userId": 2,
+        "id": 15,
+        "title": "eveniet quod temporibus",
+        "body": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae"
+    },
+    {
+        "userId": 2,
+        "id": 16,
+        "title": "sint suscipit perspiciatis velit dolorum rerum ipsa laboriosam odio",
+        "body": "suscipit nam nisi quo aperiam aut\nasperiores eos fugit maiores voluptatibus quia\nvoluptatem quis ullam qui in alias quia est\nconsequatur magni mollitia accusamus ea nisi voluptate dicta"
+    },
+    {
+        "userId": 2,
+        "id": 17,
+        "title": "fugit voluptas sed molestias voluptatem provident",
+        "body": "eos voluptas et aut odit natus earum\naspernatur fuga molestiae ullam\ndeserunt ratione qui eos\nqui nihil ratione nemo velit ut aut id quo"
+    },
+    {
+        "userId": 2,
+        "id": 18,
+        "title": "voluptate et itaque vero tempora molestiae",
+        "body": "eveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnam"
+    },
+    {
+        "userId": 2,
+        "id": 19,
+        "title": "adipisci placeat illum aut reiciendis qui",
+        "body": "illum quis cupiditate provident sit magnam\nea sed aut omnis\nveniam maiores ullam consequatur atque\nadipisci quo iste expedita sit quos voluptas"
+    },
+    {
+        "userId": 2,
+        "id": 20,
+        "title": "doloribus ad provident suscipit at",
+        "body": "qui consequuntur ducimus possimus quisquam amet similique\nsuscipit porro ipsam amet\neos veritatis officiis exercitationem vel fugit aut necessitatibus totam\nomnis rerum consequatur expedita quidem cumque explicabo"
+    },
+    {
+        "userId": 3,
+        "id": 21,
+        "title": "asperiores ea ipsam voluptatibus modi minima quia sint",
+        "body": "repellat aliquid praesentium dolorem quo\nsed totam minus non itaque\nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt"
+    },
+    {
+        "userId": 3,
+        "id": 22,
+        "title": "dolor sint quo a velit explicabo quia nam",
+        "body": "eos qui et ipsum ipsam suscipit aut\nsed omnis non odio\nexpedita earum mollitia molestiae aut atque rem suscipit\nnam impedit esse"
+    },
+    {
+        "userId": 3,
+        "id": 23,
+        "title": "maxime id vitae nihil numquam",
+        "body": "veritatis unde neque eligendi\nquae quod architecto quo neque vitae\nest illo sit tempora doloremque fugit quod\net et vel beatae sequi ullam sed tenetur perspiciatis"
+    },
+    {
+        "userId": 3,
+        "id": 24,
+        "title": "autem hic labore sunt dolores incidunt",
+        "body": "enim et ex nulla\nomnis voluptas quia qui\nvoluptatem consequatur numquam aliquam sunt\ntotam recusandae id dignissimos aut sed asperiores deserunt"
+    },
+    {
+        "userId": 3,
+        "id": 25,
+        "title": "rem alias distinctio quo quis",
+        "body": "ullam consequatur ut\nomnis quis sit vel consequuntur\nipsa eligendi ipsum molestiae et omnis error nostrum\nmolestiae illo tempore quia et distinctio"
+    },
+    {
+        "userId": 3,
+        "id": 26,
+        "title": "est et quae odit qui non",
+        "body": "similique esse doloribus nihil accusamus\nomnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus\nperspiciatis cum ut laudantium\nomnis aut molestiae vel vero"
+    },
+    {
+        "userId": 3,
+        "id": 27,
+        "title": "quasi id et eos tenetur aut quo autem",
+        "body": "eum sed dolores ipsam sint possimus debitis occaecati\ndebitis qui qui et\nut placeat enim earum aut odit facilis\nconsequatur suscipit necessitatibus rerum sed inventore temporibus consequatur"
+    },
+    {
+        "userId": 3,
+        "id": 28,
+        "title": "delectus ullam et corporis nulla voluptas sequi",
+        "body": "non et quaerat ex quae ad maiores\nmaiores recusandae totam aut blanditiis mollitia quas illo\nut voluptatibus voluptatem\nsimilique nostrum eum"
+    },
+    {
+        "userId": 3,
+        "id": 29,
+        "title": "iusto eius quod necessitatibus culpa ea",
+        "body": "odit magnam ut saepe sed non qui\ntempora atque nihil\naccusamus illum doloribus illo dolor\neligendi repudiandae odit magni similique sed cum maiores"
+    },
+    {
+        "userId": 3,
+        "id": 30,
+        "title": "a quo magni similique perferendis",
+        "body": "alias dolor cumque\nimpedit blanditiis non eveniet odio maxime\nblanditiis amet eius quis tempora quia autem rem\na provident perspiciatis quia"
+    },
+    {
+        "userId": 4,
+        "id": 31,
+        "title": "ullam ut quidem id aut vel consequuntur",
+        "body": "debitis eius sed quibusdam non quis consectetur vitae\nimpedit ut qui consequatur sed aut in\nquidem sit nostrum et maiores adipisci atque\nquaerat voluptatem adipisci repudiandae"
+    },
+    {
+        "userId": 4,
+        "id": 32,
+        "title": "doloremque illum aliquid sunt",
+        "body": "deserunt eos nobis asperiores et hic\nest debitis repellat molestiae optio\nnihil ratione ut eos beatae quibusdam distinctio maiores\nearum voluptates et aut adipisci ea maiores voluptas maxime"
+    },
+    {
+        "userId": 4,
+        "id": 33,
+        "title": "qui explicabo molestiae dolorem",
+        "body": "rerum ut et numquam laborum odit est sit\nid qui sint in\nquasi tenetur tempore aperiam et quaerat qui in\nrerum officiis sequi cumque quod"
+    },
+    {
+        "userId": 4,
+        "id": 34,
+        "title": "magnam ut rerum iure",
+        "body": "ea velit perferendis earum ut voluptatem voluptate itaque iusto\ntotam pariatur in\nnemo voluptatem voluptatem autem magni tempora minima in\nest distinctio qui assumenda accusamus dignissimos officia nesciunt nobis"
+    },
+    {
+        "userId": 4,
+        "id": 35,
+        "title": "id nihil consequatur molestias animi provident",
+        "body": "nisi error delectus possimus ut eligendi vitae\nplaceat eos harum cupiditate facilis reprehenderit voluptatem beatae\nmodi ducimus quo illum voluptas eligendi\net nobis quia fugit"
+    },
+    {
+        "userId": 4,
+        "id": 36,
+        "title": "fuga nam accusamus voluptas reiciendis itaque",
+        "body": "ad mollitia et omnis minus architecto odit\nvoluptas doloremque maxime aut non ipsa qui alias veniam\nblanditiis culpa aut quia nihil cumque facere et occaecati\nqui aspernatur quia eaque ut aperiam inventore"
+    },
+    {
+        "userId": 4,
+        "id": 37,
+        "title": "provident vel ut sit ratione est",
+        "body": "debitis et eaque non officia sed nesciunt pariatur vel\nvoluptatem iste vero et ea\nnumquam aut expedita ipsum nulla in\nvoluptates omnis consequatur aut enim officiis in quam qui"
+    },
+    {
+        "userId": 4,
+        "id": 38,
+        "title": "explicabo et eos deleniti nostrum ab id repellendus",
+        "body": "animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure"
+    },
+    {
+        "userId": 4,
+        "id": 39,
+        "title": "eos dolorem iste accusantium est eaque quam",
+        "body": "corporis rerum ducimus vel eum accusantium\nmaxime aspernatur a porro possimus iste omnis\nest in deleniti asperiores fuga aut\nvoluptas sapiente vel dolore minus voluptatem incidunt ex"
+    },
+    {
+        "userId": 4,
+        "id": 40,
+        "title": "enim quo cumque",
+        "body": "ut voluptatum aliquid illo tenetur nemo sequi quo facilis\nipsum rem optio mollitia quas\nvoluptatem eum voluptas qui\nunde omnis voluptatem iure quasi maxime voluptas nam"
+    },
+    {
+        "userId": 5,
+        "id": 41,
+        "title": "non est facere",
+        "body": "molestias id nostrum\nexcepturi molestiae dolore omnis repellendus quaerat saepe\nconsectetur iste quaerat tenetur asperiores accusamus ex ut\nnam quidem est ducimus sunt debitis saepe"
+    },
+    {
+        "userId": 5,
+        "id": 42,
+        "title": "commodi ullam sint et excepturi error explicabo praesentium voluptas",
+        "body": "odio fugit voluptatum ducimus earum autem est incidunt voluptatem\nodit reiciendis aliquam sunt sequi nulla dolorem\nnon facere repellendus voluptates quia\nratione harum vitae ut"
+    },
+    {
+        "userId": 5,
+        "id": 43,
+        "title": "eligendi iste nostrum consequuntur adipisci praesentium sit beatae perferendis",
+        "body": "similique fugit est\nillum et dolorum harum et voluptate eaque quidem\nexercitationem quos nam commodi possimus cum odio nihil nulla\ndolorum exercitationem magnam ex et a et distinctio debitis"
+    },
+    {
+        "userId": 5,
+        "id": 44,
+        "title": "optio dolor molestias sit",
+        "body": "temporibus est consectetur dolore\net libero debitis vel velit laboriosam quia\nipsum quibusdam qui itaque fuga rem aut\nea et iure quam sed maxime ut distinctio quae"
+    },
+    {
+        "userId": 5,
+        "id": 45,
+        "title": "ut numquam possimus omnis eius suscipit laudantium iure",
+        "body": "est natus reiciendis nihil possimus aut provident\nex et dolor\nrepellat pariatur est\nnobis rerum repellendus dolorem autem"
+    },
+    {
+        "userId": 5,
+        "id": 46,
+        "title": "aut quo modi neque nostrum ducimus",
+        "body": "voluptatem quisquam iste\nvoluptatibus natus officiis facilis dolorem\nquis quas ipsam\nvel et voluptatum in aliquid"
+    },
+    {
+        "userId": 5,
+        "id": 47,
+        "title": "quibusdam cumque rem aut deserunt",
+        "body": "voluptatem assumenda ut qui ut cupiditate aut impedit veniam\noccaecati nemo illum voluptatem laudantium\nmolestiae beatae rerum ea iure soluta nostrum\neligendi et voluptate"
+    },
+    {
+        "userId": 5,
+        "id": 48,
+        "title": "ut voluptatem illum ea doloribus itaque eos",
+        "body": "voluptates quo voluptatem facilis iure occaecati\nvel assumenda rerum officia et\nillum perspiciatis ab deleniti\nlaudantium repellat ad ut et autem reprehenderit"
+    },
+    {
+        "userId": 5,
+        "id": 49,
+        "title": "laborum non sunt aut ut assumenda perspiciatis voluptas",
+        "body": "inventore ab sint\nnatus fugit id nulla sequi architecto nihil quaerat\neos tenetur in in eum veritatis non\nquibusdam officiis aspernatur cumque aut commodi aut"
+    },
+    {
+        "userId": 5,
+        "id": 50,
+        "title": "repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem",
+        "body": "error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur"
+    },
+    {
+        "userId": 6,
+        "id": 51,
+        "title": "soluta aliquam aperiam consequatur illo quis voluptas",
+        "body": "sunt dolores aut doloribus\ndolore doloribus voluptates tempora et\ndoloremque et quo\ncum asperiores sit consectetur dolorem"
+    },
+    {
+        "userId": 6,
+        "id": 52,
+        "title": "qui enim et consequuntur quia animi quis voluptate quibusdam",
+        "body": "iusto est quibusdam fuga quas quaerat molestias\na enim ut sit accusamus enim\ntemporibus iusto accusantium provident architecto\nsoluta esse reprehenderit qui laborum"
+    },
+    {
+        "userId": 6,
+        "id": 53,
+        "title": "ut quo aut ducimus alias",
+        "body": "minima harum praesentium eum rerum illo dolore\nquasi exercitationem rerum nam\nporro quis neque quo\nconsequatur minus dolor quidem veritatis sunt non explicabo similique"
+    },
+    {
+        "userId": 6,
+        "id": 54,
+        "title": "sit asperiores ipsam eveniet odio non quia",
+        "body": "totam corporis dignissimos\nvitae dolorem ut occaecati accusamus\nex velit deserunt\net exercitationem vero incidunt corrupti mollitia"
+    },
+    {
+        "userId": 6,
+        "id": 55,
+        "title": "sit vel voluptatem et non libero",
+        "body": "debitis excepturi ea perferendis harum libero optio\neos accusamus cum fuga ut sapiente repudiandae\net ut incidunt omnis molestiae\nnihil ut eum odit"
+    },
+    {
+        "userId": 6,
+        "id": 56,
+        "title": "qui et at rerum necessitatibus",
+        "body": "aut est omnis dolores\nneque rerum quod ea rerum velit pariatur beatae excepturi\net provident voluptas corrupti\ncorporis harum reprehenderit dolores eligendi"
+    },
+    {
+        "userId": 6,
+        "id": 57,
+        "title": "sed ab est est",
+        "body": "at pariatur consequuntur earum quidem\nquo est laudantium soluta voluptatem\nqui ullam et est\net cum voluptas voluptatum repellat est"
+    },
+    {
+        "userId": 6,
+        "id": 58,
+        "title": "voluptatum itaque dolores nisi et quasi",
+        "body": "veniam voluptatum quae adipisci id\net id quia eos ad et dolorem\naliquam quo nisi sunt eos impedit error\nad similique veniam"
+    },
+    {
+        "userId": 6,
+        "id": 59,
+        "title": "qui commodi dolor at maiores et quis id accusantium",
+        "body": "perspiciatis et quam ea autem temporibus non voluptatibus qui\nbeatae a earum officia nesciunt dolores suscipit voluptas et\nanimi doloribus cum rerum quas et magni\net hic ut ut commodi expedita sunt"
+    },
+    {
+        "userId": 6,
+        "id": 60,
+        "title": "consequatur placeat omnis quisquam quia reprehenderit fugit veritatis facere",
+        "body": "asperiores sunt ab assumenda cumque modi velit\nqui esse omnis\nvoluptate et fuga perferendis voluptas\nillo ratione amet aut et omnis"
+    },
+    {
+        "userId": 7,
+        "id": 61,
+        "title": "voluptatem doloribus consectetur est ut ducimus",
+        "body": "ab nemo optio odio\ndelectus tenetur corporis similique nobis repellendus rerum omnis facilis\nvero blanditiis debitis in nesciunt doloribus dicta dolores\nmagnam minus velit"
+    },
+    {
+        "userId": 7,
+        "id": 62,
+        "title": "beatae enim quia vel",
+        "body": "enim aspernatur illo distinctio quae praesentium\nbeatae alias amet delectus qui voluptate distinctio\nodit sint accusantium autem omnis\nquo molestiae omnis ea eveniet optio"
+    },
+    {
+        "userId": 7,
+        "id": 63,
+        "title": "voluptas blanditiis repellendus animi ducimus error sapiente et suscipit",
+        "body": "enim adipisci aspernatur nemo\nnumquam omnis facere dolorem dolor ex quis temporibus incidunt\nab delectus culpa quo reprehenderit blanditiis asperiores\naccusantium ut quam in voluptatibus voluptas ipsam dicta"
+    },
+    {
+        "userId": 7,
+        "id": 64,
+        "title": "et fugit quas eum in in aperiam quod",
+        "body": "id velit blanditiis\neum ea voluptatem\nmolestiae sint occaecati est eos perspiciatis\nincidunt a error provident eaque aut aut qui"
+    },
+    {
+        "userId": 7,
+        "id": 65,
+        "title": "consequatur id enim sunt et et",
+        "body": "voluptatibus ex esse\nsint explicabo est aliquid cumque adipisci fuga repellat labore\nmolestiae corrupti ex saepe at asperiores et perferendis\nnatus id esse incidunt pariatur"
+    },
+    {
+        "userId": 7,
+        "id": 66,
+        "title": "repudiandae ea animi iusto",
+        "body": "officia veritatis tenetur vero qui itaque\nsint non ratione\nsed et ut asperiores iusto eos molestiae nostrum\nveritatis quibusdam et nemo iusto saepe"
+    },
+    {
+        "userId": 7,
+        "id": 67,
+        "title": "aliquid eos sed fuga est maxime repellendus",
+        "body": "reprehenderit id nostrum\nvoluptas doloremque pariatur sint et accusantium quia quod aspernatur\net fugiat amet\nnon sapiente et consequatur necessitatibus molestiae"
+    },
+    {
+        "userId": 7,
+        "id": 68,
+        "title": "odio quis facere architecto reiciendis optio",
+        "body": "magnam molestiae perferendis quisquam\nqui cum reiciendis\nquaerat animi amet hic inventore\nea quia deleniti quidem saepe porro velit"
+    },
+    {
+        "userId": 7,
+        "id": 69,
+        "title": "fugiat quod pariatur odit minima",
+        "body": "officiis error culpa consequatur modi asperiores et\ndolorum assumenda voluptas et vel qui aut vel rerum\nvoluptatum quisquam perspiciatis quia rerum consequatur totam quas\nsequi commodi repudiandae asperiores et saepe a"
+    },
+    {
+        "userId": 7,
+        "id": 70,
+        "title": "voluptatem laborum magni",
+        "body": "sunt repellendus quae\nest asperiores aut deleniti esse accusamus repellendus quia aut\nquia dolorem unde\neum tempora esse dolore"
+    },
+    {
+        "userId": 8,
+        "id": 71,
+        "title": "et iusto veniam et illum aut fuga",
+        "body": "occaecati a doloribus\niste saepe consectetur placeat eum voluptate dolorem et\nqui quo quia voluptas\nrerum ut id enim velit est perferendis"
+    },
+    {
+        "userId": 8,
+        "id": 72,
+        "title": "sint hic doloribus consequatur eos non id",
+        "body": "quam occaecati qui deleniti consectetur\nconsequatur aut facere quas exercitationem aliquam hic voluptas\nneque id sunt ut aut accusamus\nsunt consectetur expedita inventore velit"
+    },
+    {
+        "userId": 8,
+        "id": 73,
+        "title": "consequuntur deleniti eos quia temporibus ab aliquid at",
+        "body": "voluptatem cumque tenetur consequatur expedita ipsum nemo quia explicabo\naut eum minima consequatur\ntempore cumque quae est et\net in consequuntur voluptatem voluptates aut"
+    },
+    {
+        "userId": 8,
+        "id": 74,
+        "title": "enim unde ratione doloribus quas enim ut sit sapiente",
+        "body": "odit qui et et necessitatibus sint veniam\nmollitia amet doloremque molestiae commodi similique magnam et quam\nblanditiis est itaque\nquo et tenetur ratione occaecati molestiae tempora"
+    },
+    {
+        "userId": 8,
+        "id": 75,
+        "title": "dignissimos eum dolor ut enim et delectus in",
+        "body": "commodi non non omnis et voluptas sit\nautem aut nobis magnam et sapiente voluptatem\net laborum repellat qui delectus facilis temporibus\nrerum amet et nemo voluptate expedita adipisci error dolorem"
+    },
+    {
+        "userId": 8,
+        "id": 76,
+        "title": "doloremque officiis ad et non perferendis",
+        "body": "ut animi facere\ntotam iusto tempore\nmolestiae eum aut et dolorem aperiam\nquaerat recusandae totam odio"
+    },
+    {
+        "userId": 8,
+        "id": 77,
+        "title": "necessitatibus quasi exercitationem odio",
+        "body": "modi ut in nulla repudiandae dolorum nostrum eos\naut consequatur omnis\nut incidunt est omnis iste et quam\nvoluptates sapiente aliquam asperiores nobis amet corrupti repudiandae provident"
+    },
+    {
+        "userId": 8,
+        "id": 78,
+        "title": "quam voluptatibus rerum veritatis",
+        "body": "nobis facilis odit tempore cupiditate quia\nassumenda doloribus rerum qui ea\nillum et qui totam\naut veniam repellendus"
+    },
+    {
+        "userId": 8,
+        "id": 79,
+        "title": "pariatur consequatur quia magnam autem omnis non amet",
+        "body": "libero accusantium et et facere incidunt sit dolorem\nnon excepturi qui quia sed laudantium\nquisquam molestiae ducimus est\nofficiis esse molestiae iste et quos"
+    },
+    {
+        "userId": 8,
+        "id": 80,
+        "title": "labore in ex et explicabo corporis aut quas",
+        "body": "ex quod dolorem ea eum iure qui provident amet\nquia qui facere excepturi et repudiandae\nasperiores molestias provident\nminus incidunt vero fugit rerum sint sunt excepturi provident"
+    },
+    {
+        "userId": 9,
+        "id": 81,
+        "title": "tempora rem veritatis voluptas quo dolores vero",
+        "body": "facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut"
+    },
+    {
+        "userId": 9,
+        "id": 82,
+        "title": "laudantium voluptate suscipit sunt enim enim",
+        "body": "ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic"
+    },
+    {
+        "userId": 9,
+        "id": 83,
+        "title": "odit et voluptates doloribus alias odio et",
+        "body": "est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam"
+    },
+    {
+        "userId": 9,
+        "id": 84,
+        "title": "optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut",
+        "body": "sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio"
+    },
+    {
+        "userId": 9,
+        "id": 85,
+        "title": "dolore veritatis porro provident adipisci blanditiis et sunt",
+        "body": "similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione"
+    },
+    {
+        "userId": 9,
+        "id": 86,
+        "title": "placeat quia et porro iste",
+        "body": "quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio"
+    },
+    {
+        "userId": 9,
+        "id": 87,
+        "title": "nostrum quis quasi placeat",
+        "body": "eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est"
+    },
+    {
+        "userId": 9,
+        "id": 88,
+        "title": "sapiente omnis fugit eos",
+        "body": "consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed"
+    },
+    {
+        "userId": 9,
+        "id": 89,
+        "title": "sint soluta et vel magnam aut ut sed qui",
+        "body": "repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est"
+    },
+    {
+        "userId": 9,
+        "id": 90,
+        "title": "ad iusto omnis odit dolor voluptatibus",
+        "body": "minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis"
+    },
+    {
+        "userId": 10,
+        "id": 91,
+        "title": "aut amet sed",
+        "body": "libero voluptate eveniet aperiam sed\nsunt placeat suscipit molestias\nsimilique fugit nam natus\nexpedita consequatur consequatur dolores quia eos et placeat"
+    },
+    {
+        "userId": 10,
+        "id": 92,
+        "title": "ratione ex tenetur perferendis",
+        "body": "aut et excepturi dicta laudantium sint rerum nihil\nlaudantium et at\na neque minima officia et similique libero et\ncommodi voluptate qui"
+    },
+    {
+        "userId": 10,
+        "id": 93,
+        "title": "beatae soluta recusandae",
+        "body": "dolorem quibusdam ducimus consequuntur dicta aut quo laboriosam\nvoluptatem quis enim recusandae ut sed sunt\nnostrum est odit totam\nsit error sed sunt eveniet provident qui nulla"
+    },
+    {
+        "userId": 10,
+        "id": 94,
+        "title": "qui qui voluptates illo iste minima",
+        "body": "aspernatur expedita soluta quo ab ut similique\nexpedita dolores amet\nsed temporibus distinctio magnam saepe deleniti\nomnis facilis nam ipsum natus sint similique omnis"
+    },
+    {
+        "userId": 10,
+        "id": 95,
+        "title": "id minus libero illum nam ad officiis",
+        "body": "earum voluptatem facere provident blanditiis velit laboriosam\npariatur accusamus odio saepe\ncumque dolor qui a dicta ab doloribus consequatur omnis\ncorporis cupiditate eaque assumenda ad nesciunt"
+    },
+    {
+        "userId": 10,
+        "id": 96,
+        "title": "quaerat velit veniam amet cupiditate aut numquam ut sequi",
+        "body": "in non odio excepturi sint eum\nlabore voluptates vitae quia qui et\ninventore itaque rerum\nveniam non exercitationem delectus aut"
+    },
+    {
+        "userId": 10,
+        "id": 97,
+        "title": "quas fugiat ut perspiciatis vero provident",
+        "body": "eum non blanditiis soluta porro quibusdam voluptas\nvel voluptatem qui placeat dolores qui velit aut\nvel inventore aut cumque culpa explicabo aliquid at\nperspiciatis est et voluptatem dignissimos dolor itaque sit nam"
+    },
+    {
+        "userId": 10,
+        "id": 98,
+        "title": "laboriosam dolor voluptates",
+        "body": "doloremque ex facilis sit sint culpa\nsoluta assumenda eligendi non ut eius\nsequi ducimus vel quasi\nveritatis est dolores"
+    },
+    {
+        "userId": 10,
+        "id": 99,
+        "title": "temporibus sit alias delectus eligendi possimus magni",
+        "body": "quo deleniti praesentium dicta non quod\naut est molestias\nmolestias et officia quis nihil\nitaque dolorem quia"
+    },
+    {
+        "userId": 10,
+        "id": 100,
+        "title": "at nam consequatur ea labore ea harum",
+        "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
+    }
+]
+2026-03-30 03:08:36.452 [main] INFO  c.a.t.AuthTest                           - <<< PASSED: API Key query param attached, request succeeded
+]]></system-out>
+  </testcase>
+  <testcase name="testInvalidCredentials" classname="com.apiframework.tests.AuthTest" time="0.313">
+    <system-out><![CDATA[2026-03-30 03:08:36.456 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:36.456 [main] INFO  c.a.u.LogUtils                           - ?  PASSED: testApiKeyInQueryParam
+2026-03-30 03:08:36.456 [main] INFO  c.a.u.LogUtils                           - ???????????????????????????????????????????
+2026-03-30 03:08:36.463 [main] INFO  c.a.t.AuthTest                           - >>> TEST: Login with invalid credentials
+Request method:	POST
+Request URI:	https://dummyjson.com/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "wronguser",
+    "password": "wrongpass",
+    "expiresInMins": 30
+}
+HTTP/1.1 400 Bad Request
+Date: Sun, 29 Mar 2026 21:38:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 33
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"21-dBEoW0UmTF+EGUMaprEp9/8zNNA"
+strict-transport-security: max-age=15552000; includeSubDomains
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 96
+x-ratelimit-reset: 1774820318
+x-xss-protection: 1; mode=block
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1MQv%2FJEi2vOzkd61uEvfH5S2jQYOqWCBAPwSzkkM779obBK3ek0w9bVzH1iktqXYi6ZLMGda3j%2FTLS7wjrHqKLsOjEEj8wcdtf7ey8vRAbrE965q7pSxMKT7heNkjkSc"}]}
+Server: cloudflare
+CF-RAY: 9e4205c2dce08cd0-CNN
+
+{
+    "message": "Invalid credentials"
+}
+2026-03-30 03:08:36.829 [main] INFO  c.a.t.AuthTest                           - <<< PASSED: Invalid credentials correctly rejected with 400
+]]></system-out>
+  </testcase>
+</testsuite>

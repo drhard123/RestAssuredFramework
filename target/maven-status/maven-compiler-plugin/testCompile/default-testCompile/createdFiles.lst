@@ -1,0 +1,3 @@
+com\apiframework\tests\DataDrivenTest.class
+com\apiframework\tests\UserApiTest.class
+com\apiframework\tests\AuthTest.class

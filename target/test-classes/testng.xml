@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Automation Suite" verbose="1">
+
+	<test name="JsonPlaceHolderSample API Tests">
+		<classes>
+			<class name="com.apiframework.tests.UserApiTest" />
+			<class name="com.apiframework.tests.DataDrivenTest"/>
+			<class name="com.apiframework.tests.AuthTest"/>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+
+	<Properties>
+		<!-- Single place to change log folder and pattern -->
+		<Property name="LOG_DIR">logs</Property>
+		<Property name="LOG_PATTERN">
+			%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %-40logger{1.} - %msg%n
+		</Property>
+	</Properties>
+
+	<Appenders>
+
+		<!-- Console: colored output for Eclipse console -->
+		<Console name="ConsoleAppender" target="SYSTEM_OUT">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+		</Console>
+
+		<!-- Main log file: overwrites on every run (clean slate) -->
+		<File name="FileAppender"
+			fileName="${LOG_DIR}/api-tests.log"
+			append="false">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+		</File>
+
+		<!-- Rolling file: archives logs, keeps last 10 runs -->
+		<RollingFile name="RollingFileAppender"
+			fileName="${LOG_DIR}/api-tests-rolling.log"
+			filePattern="${LOG_DIR}/archive/api-tests-%d{yyyy-MM-dd}-%i.log.gz">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+			<Policies>
+				<!-- Roll over at start of each day -->
+				<TimeBasedTriggeringPolicy interval="1" />
+				<!-- Also roll if file exceeds 5MB -->
+				<SizeBasedTriggeringPolicy size="5MB" />
+			</Policies>
+			<!-- Keep max 10 archived log files -->
+			<DefaultRolloverStrategy max="10" />
+		</RollingFile>
+
+	</Appenders>
+
+	<Loggers>
+
+		<!-- Framework-specific logger at DEBUG level -->
+		<!-- Shows detailed logs only from our framework packages -->
+		<Logger name="com.apiframework" level="debug" additivity="false">
+			<AppenderRef ref="ConsoleAppender" />
+			<AppenderRef ref="FileAppender" />
+			<AppenderRef ref="RollingFileAppender" />
+		</Logger>
+
+		<!-- Root logger: everything else at INFO level -->
+		<Root level="info">
+			<AppenderRef ref="ConsoleAppender" />
+			<AppenderRef ref="FileAppender" />
+		</Root>
+
+	</Loggers>
+
+</Configuration>
