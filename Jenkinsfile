@@ -5,7 +5,7 @@ pipeline {
     // Tools configured in Jenkins → Manage Jenkins → Tools
     tools {
         maven 'Maven-3.9.14'
-        allure 'Allure-2.33.0'
+        allure 'Allure-2.33'
     }
 
     // Environment variables — credentials never hardcoded
